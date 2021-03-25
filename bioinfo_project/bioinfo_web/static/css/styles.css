@@ -1,0 +1,66 @@
+/*Estilo barra superior e abas*/
+
+div.div_barra_superior{
+    background-color: #264653;
+}
+
+button.btn.home{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.home:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.blast{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.blast:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.browser{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.browser:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.download{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.download:hover{
+    background-color: #2a9d8f;
+}
+
+/*Estilo página do blast*/
+h1.h1_titulo_container_blast{
+    font-size: 18px;
+    text-align: center;
+    color: #2a9d8f;
+}
+
+h1.h1_select_program{
+    font-size: 13px;
+}
+
+select#select_program.form-control.selectProgram{
+    margin-left: 5px;
+    width: 400px;
+}
+
+h1.h1_select_database{
+    font-size: 13px;
+}
+
+select#select_database.form-control.selectDatabase{
+    margin-left: 40px;
+    width: 400px;
+}

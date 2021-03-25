@@ -5,5 +5,7 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('blast/', views.blast, name = 'blast'),
     path('dados/', views.get_dados_amostra, name='dados'),
 ]
+
