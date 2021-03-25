@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %} Blast {% endblock %}
+
+{% block content %}
+    <div class="container" id="container_campos_blast">
+        <div  id="div_titulo_container_blast"><h1 class="h1_titulo_container_blast">Blast Search</h1></div>
+        <form class="form-contact contact_form"  method="post" id="formulario_blast" action="" >{% csrf_token%}
+            <div class="row pand">
+                <h1 class="h1_select_program">Select the blast program:</h1>
+                <select class="form-control selectProgram" id="select_program" name="select_program" >
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                </select>
+            </div>
+            <div class="row pand">
+                <h1 class="h1_select_database">Database for blast:</h1>
+                <select class="form-control selectDatabase" id="select_database" name="select_database" >
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                </select>
+            </div>
+        </form>
+    </div>
+{% endblock %}
