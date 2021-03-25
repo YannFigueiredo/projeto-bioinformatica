@@ -1,0 +1,39 @@
+div.div_barra_superior{
+    background-color: #264653;
+}
+
+button.btn.home{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.home:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.blast{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.blast:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.browser{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.browser:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.download{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.download:hover{
+    background-color: #2a9d8f;
+}
