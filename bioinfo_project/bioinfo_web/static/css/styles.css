@@ -47,7 +47,7 @@ h1.h1_titulo_container_blast{
     color: #2a9d8f;
 }
 
-h1.h1_select_program{
+h1.h1_tag_blast{
     font-size: 13px;
 }
 
@@ -56,11 +56,16 @@ select#select_program.form-control.selectProgram{
     width: 400px;
 }
 
-h1.h1_select_database{
-    font-size: 13px;
-}
-
 select#select_database.form-control.selectDatabase{
     margin-left: 40px;
     width: 400px;
+}
+
+input.input_arquivo{
+    margin-bottom: 10px;
+}
+
+input.input_other_options{
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
