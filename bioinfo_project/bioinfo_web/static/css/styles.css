@@ -40,6 +40,17 @@ button.btn.download:hover{
     background-color: #2a9d8f;
 }
 
+/*Estilo página home*/
+h1.h1_home{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+a.a_link_exemplo{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
 /*Estilo página do blast*/
 h1.h1_titulo_container_blast{
     font-size: 18px;
