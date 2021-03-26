@@ -30,7 +30,7 @@ def tempo():
         "%H:%M:%S", time.gmtime(time.time() - START_TIME)))]
 
 
-def main():
+def run_blast():
     nome_amostra = "bioinfo_web/myfile.fasta"  # Nome da Amostra
     global START_TIME
     START_TIME = time.time()
