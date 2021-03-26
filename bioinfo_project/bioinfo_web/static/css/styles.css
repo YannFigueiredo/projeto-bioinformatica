@@ -22,12 +22,21 @@ button.btn.blast:hover{
     background-color: #2a9d8f;
 }
 
-button.btn.browser{
+button.btn.jbrowse{
     background-color: #264653;
     color: white;
 }
 
-button.btn.browser:hover{
+button.btn.jbrowse:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.arvore{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.arvore:hover{
     background-color: #2a9d8f;
 }
 
@@ -38,6 +47,10 @@ button.btn.download{
 
 button.btn.download:hover{
     background-color: #2a9d8f;
+}
+
+input.input_search{
+    margin-left: 0px;
 }
 
 /*Estilo página home*/
