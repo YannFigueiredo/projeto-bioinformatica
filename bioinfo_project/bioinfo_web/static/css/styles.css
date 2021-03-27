@@ -1,5 +1,33 @@
-/*Estilo barra superior e abas*/
+/*Estilo body*/
+body{
+    background-image: url("/static/imagens/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    position: relative;
+    margin: 0 0 60px;
+    min-height: 100%;
+}
 
+html{
+   height: 100%;
+}
+
+/*Estilo rodapé*/
+footer.footer{
+    background-color: #f0efeb;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+h1.h1_footer{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*Estilo barra superior e abas*/
 div.div_barra_superior{
     background-color: #264653;
 }
@@ -49,8 +77,8 @@ button.btn.download:hover{
     background-color: #2a9d8f;
 }
 
-input.input_search{
-    margin-left: 0px;
+form.form-inline{
+    margin-left: auto;
 }
 
 /*Estilo página home*/
@@ -65,24 +93,35 @@ a.a_link_exemplo{
 }
 
 /*Estilo página do blast*/
+form#formulario_blast.form-contact.contact_form{
+    align-self: center;
+}
+
+div.row.pand{
+    align-self: center;
+}
+
 h1.h1_titulo_container_blast{
     font-size: 18px;
     text-align: center;
-    color: #2a9d8f;
+    color: #264653;
 }
 
 h1.h1_tag_blast{
     font-size: 13px;
+    align-self: center;
 }
 
 select#select_program.form-control.selectProgram{
     margin-left: 5px;
     width: 400px;
+    align-self: center;
 }
 
 select#select_database.form-control.selectDatabase{
     margin-left: 40px;
     width: 400px;
+    align-self: center;
 }
 
 input.input_arquivo{
@@ -92,4 +131,21 @@ input.input_arquivo{
 input.input_other_options{
     margin-bottom: 10px;
     margin-right: 10px;
+    margin-left: 5px;
+    align-self: center;
+}
+
+input.input_submit:hover{
+    background-color: #2a9d8f;
+}
+
+input.input_submit{
+    background-color: #264653;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 80px;
 }
