@@ -3,11 +3,7 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-
-<form action="dados/" method="post">
-    {% csrf_token %}
-    <TEXTAREA NAME=sample_data COLS=57 ROWS=8></TEXTAREA><br><br>
-    <input type="submit" value="Submit">
-</form>
-
+    <h1 class="h1_home">Aqui vai um texto sobre o organismo, segundo o exemplo apresentado pelo professor. Podemos adaptar para ser outra coisa.</h1>
+    <h1 class="h1_home">O exemplo pode ser acessado pelo link abaixo.</h1>
+    <a class="a_link_exemplo" href="http://www.whiteflygenomics.org/cgi-bin/bta/index.cgi" target="_blank">Exemplo de site</a>
 {% endblock %}
