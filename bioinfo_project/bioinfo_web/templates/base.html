@@ -19,23 +19,22 @@
                     <img src="{% static 'imagens/logo.png' %}" width="100" height="50" alt="">
                     <a href="/"><button class="btn home" id="bt_home"><h5 class="h5 menu abas" id="h5_home">HOME</h5></button></a>
                     <a href="/blast"><button class="btn blast" id="bt_blast"><h5 class="h5 menu abas" id="h5_blast">BLAST</h5></button></a>
-                    <a href=""><button class="btn browser" id="bt_browser"><h5 class="h5 menu abas" id="h5_browser" class="base">BROWSER</h5></button></a>
+                    <a href=""><button class="btn jbrowse" id="bt_jbrowse"><h5 class="h5 menu abas" id="h5_jbrowse" class="base">JBROWSE</h5></button></a>
+                    <a href=""><button class="btn arvore" id="bt_arvore"><h5 class="h5 menu abas" id="h5_arvore" class="base">ÁRVORE FILOGENÉTICA</h5></button></a>
                     <a href=""><button class="btn download" id="bt_download"><h5 class="h5 menu abas" id="h5 download">DOWNLOAD</h5></button></a>
-                    <div class="offset-md-5">
                     <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <input id="input_search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
-                    </div>  
                 </div>
             </nav>
         </div>
     </div>
     {% block content %}
     {% endblock %}
-    <footer class="footer mt-auto py-3 bg-light">
+    <footer id="footer" class="footer">
         <div class="container">
-          <h1>Footer</h1>
+          <h1 class="h1_footer"><b>2021, Universidade Federal do Pará (UFPA)</b></h1>
         </div>
     </footer>
     <script
