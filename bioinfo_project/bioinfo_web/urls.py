@@ -8,6 +8,8 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('blast/', views.blast, name='blast'),
     path('blast/dados/', views.get_dados_amostra, name='dados'),
+    path('blast/resultado', views.resultado_blast, name='resultado_blast'),
+
 ]
 
 if settings.DEBUG:
