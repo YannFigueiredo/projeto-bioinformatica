@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} resulta_html {% endblock %}
+
+{% block content %}
+<div class="resultado container">
+{% for alinhamento in alinhamentos %}
+   
+        <h3>alinhamento {{ forloop.counter }}</h3>
+        <h3>Sequencia : {{alinhamento.Sequencia}}</h3>
+        <h3>Tamanho : {{alinhamento.Tamanho}}</h3>
+        <h3>Score : {{alinhamento.Score}}</h3>
+        <h3>Identidade : {{alinhamento.Identidade}}</h3>
+<h1>========================================================================================================================</h1>
+       <!-- {'Sequencia':  'gi|1789823865|gb|MK583182.1| Yellow fever virus isolate YFV081FIG, complete genome',
+                       'Tamanho': 10944,
+                       'Score':  21888.0,
+                       'Identidade': 109.44}--->
+                    
+{%endfor%}
+</div>
+{% endblock %}
