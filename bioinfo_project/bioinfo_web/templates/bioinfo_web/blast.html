@@ -5,55 +5,82 @@
 {% block content %}
 <div class="container" id="container_campos_blast">
     <div id="div_titulo_container_blast">
-        <h1 class="h1_titulo_container_blast">Blast Search</h1>
+        <h1>Blast Search</h1>
     </div>
+    
     <form action="dados/" class="form-contact contact_form" method="post" id="formulario_blast"
         enctype="multipart/form-data">
         {% csrf_token%}
-        <div class="row pand">
-            <h1 class="h1_tag_blast">Select the blast program:</h1>
-            <select class="form-control selectProgram" id="select_program" name="select_program">
-                <option>Opção 1</option>
-                <option>Opção 2</option>
-                <option>Opção 3</option>
-            </select>
+        <div class="form-group row">
+            <div class="col-md-6 mb-3">
+                <label for="select_program"" class=" col-sm col-form-label">Select the blast program:</label>
+                <select class="form-control" id="select_program" name="select_program">
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                </select>
+            </div>
         </div>
-        <div class="row pand">
-            <h1 class="h1_tag_blast">Database for blast:</h1>
-            <select class="form-control selectDatabase" id="select_database" name="select_database">
-                <option>Opção 1</option>
-                <option>Opção 2</option>
-                <option>Opção 3</option>
-            </select>
+        <div class="form-group row">
+            <div class="col-md-6 mb-3">
+                <label for="select_database" class="col-sm col-form-label">Database for blast:</label>
+                <select class="form-control" id="select_database" name="select_database">
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                </select>
+            </div>
         </div>
-        <div class="row pand">
-            {% csrf_token %}
-            <h1 class="h1_tag_amostra" style="padding-right: 100px;">Amostra:</h1>
-            <TEXTAREA style="border-radius: 10px; border-color: rgba(0, 0, 0, 0); "  NAME=dados_amostra_textArea COLS=54 ROWS=8></TEXTAREA><br><br>
+        <div class="form-group row">
+            <div class="col-md-6 mb-3">
+                {% csrf_token %}
+                <label for="textArea" class="col-sm col-form-label">Amostra</label>
+                <textarea stextarea class="form-control " id="textArea"></textarea>
+            </div>
         </div>
-        <h1 class="h1_tag_blast">Upload the file containing the sequences in FASTA format:</h1>
-        <div class="row pand">
+        <div class="row">
+            <div class="custom-file">
+                <div class="col-sm-6">
+                    <label class="custom-file-label" for="customFile">
+                    Arquivo</label>
+                    <input type="file" class="custom-file-input" id="customFile" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-md-5 mb-3">
+                <label class="col-sm col-form-label" for="customFile">Others options: </label>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-md-3 mb-3">
+                <label for="expect">Expect:</label>
+                <input class="form-control" type="text" id="expect" />
+            </div>
 
-            <input class="input_arquivo" type="file" name="data" />
-
-
-
+            <div class="col-md-3 mb-3">
+                <label for="description">Description:</label>
+                <input class="form-control" id="description" type="text" />
+            </div>
         </div>
-        <h1 class=" h1_tag_blast">Others options:</h1>
-        <div class="row pand">
-            <h1 class="h1_tag_blast">Expect:</h1>
-            <input class="input_other_options" type="text" />
-            <h1 class="h1_tag_blast">Description:</h1>
-            <input class="input_other_options" type="text" />
-            <h1 class="h1_tag_blast">Aligment:</h1>
-            <input class="input_other_options" type="text" />
-            <h1 class="h1_tag_blast">Filter:</h1>
-            <input class="input_other_options" type="checkbox" />
+        <div class="form-group row">
+            <div class="col-md-3 mb-3">
+                <label for="aligment">Aligment:</label>
+                <input class="form-control" id="aligment" type="text" />
+            </div>
+            <div class="col-md-4 mb-3">
+                
+                    
+                    <label class="form-check-label" for="checkbox">Filter </label>
+                    <br/>
+                    <input type="checkbox" id="checkbox" class="form-check-input">
+           
+            </div>
         </div>
-        <div class="col-md-4 offset-md-4">
-            <input class="input_submit"  type="submit" value="Submit">
-        </div>
-    </form>
+        </ <div class="col-md-4">
+        <input class="input_submit" type="submit" value="Submit">
+</div>
+</form>
 </div>
 
 {% endblock %}

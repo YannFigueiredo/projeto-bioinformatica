@@ -12,27 +12,43 @@
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-    <div>
-        <div class="div_barra_superior">
-            <nav id="nav_menu_abas" class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-                <div class="row col-12">
-                    <img src="{% static 'imagens/logo.png' %}" width="100" height="50" alt="">
-                    <a href="/"><button class="btn home" id="bt_home"><h5 class="h5 menu abas" id="h5_home">HOME</h5></button></a>
-                    <a href="/blast"><button class="btn blast" id="bt_blast"><h5 class="h5 menu abas" id="h5_blast">BLAST</h5></button></a>
-                    <a href=""><button class="btn jbrowse" id="bt_jbrowse"><h5 class="h5 menu abas" id="h5_jbrowse" class="base">JBROWSE</h5></button></a>
-                    <a href=""><button class="btn arvore" id="bt_arvore"><h5 class="h5 menu abas" id="h5_arvore" class="base">ÁRVORE FILOGENÉTICA</h5></button></a>
-                    <a href=""><button class="btn download" id="bt_download"><h5 class="h5 menu abas" id="h5 download">DOWNLOAD</h5></button></a>
-                    <form class="form-inline">
-                        <input id="input_search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="{% static 'imagens/image.png' %}" width="70" height="50" alt="" class="d-inline-block align-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/home">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blast">Blast</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Browse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Árvore Filogenética</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+          </ul>
         </div>
-    </div>
+                <form class="form-inline">
+                    <div class="form-group mb-2">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </div>
+                </form>
+                   
+       
+    </nav>
     {% block content %}
     {% endblock %}
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer bg-dark">
         <div class="container">
           <h1 class="h1_footer"><b>2021, Universidade Federal do Pará (UFPA)</b></h1>
         </div>
