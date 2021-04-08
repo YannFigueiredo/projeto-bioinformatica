@@ -7,7 +7,7 @@
     <div id="div_titulo_container_blast">
         <h1>Blast Search</h1>
     </div>
-    
+
     <form action="dados/" class="form-contact contact_form" method="post" id="formulario_blast"
         enctype="multipart/form-data">
         {% csrf_token%}
@@ -35,15 +35,15 @@
             <div class="col-md-6 mb-3">
                 {% csrf_token %}
                 <label for="textArea" class="col-sm col-form-label">Amostra</label>
-                <textarea stextarea class="form-control " id="textArea"></textarea>
+                <textarea stextarea class="form-control " id="textArea" name=dados_amostra_textArea></textarea>
             </div>
         </div>
         <div class="row">
             <div class="custom-file">
                 <div class="col-sm-6">
                     <label class="custom-file-label" for="customFile">
-                    Arquivo</label>
-                    <input type="file" class="custom-file-input" id="customFile" />
+                        Arquivo</label>
+                    <input type="file" class="custom-file-input" id="customFile" name="data" />
                 </div>
             </div>
         </div>
@@ -69,12 +69,12 @@
                 <input class="form-control" id="aligment" type="text" />
             </div>
             <div class="col-md-4 mb-3">
-                
-                    
-                    <label class="form-check-label" for="checkbox">Filter </label>
-                    <br/>
-                    <input type="checkbox" id="checkbox" class="form-check-input">
-           
+
+
+                <label class="form-check-label" for="checkbox">Filter </label>
+                <br />
+                <input type="checkbox" id="checkbox" class="form-check-input">
+
             </div>
         </div>
         </ <div class="col-md-4">
