@@ -42,24 +42,28 @@ def run_blast():
     tempo()
     print("Blast:")
     print("***********")
-    analise(res_on)
+    resultado = analise(res_on)
+    return resultado
 
 
 def analise(res):
     print("Abrindo o resultado para analise")
+    alinhamentos = []
     dados = NCBIXML.parse(res)
     item = next(dados)
     print("Iniciando Analise")
     i = 1
     for a in item.alignments:
         for hsp in a.hsps:
-            print('Alinhamento', i)
-            print('Sequencia: ', a.title)
-            print('Tamanho: ', a.length)
-            print('Score: ', hsp.score)
-            print('Identidade:', hsp.identities/100)
+            alinhamentos.append({'alinhamento': i,
+                                 'sequencia': a.title,
+                                 'tamanho': a.length,
+                                 'score': hsp.score,
+                                 'identidade': hsp.identities/100
+                                 })
             i += 1
     print("***********")
     print("Analise")
     tempo()
     print("Analise")
+    return alinhamentos
