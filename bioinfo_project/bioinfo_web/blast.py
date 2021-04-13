@@ -12,6 +12,7 @@ Original file is located at
 # https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/ -->Apenas Viral
 # https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/-->Banco Todo
 try:
+
     from Bio.Blast import NCBIXML
     from Bio.Blast import NCBIWWW
     from Bio import SeqIO
@@ -20,7 +21,7 @@ except:
     from Bio.Blast import NCBIWWW
     from Bio import SeqIO
 import time
-
+import os
 START_TIME = 0.0
 
 
@@ -31,17 +32,18 @@ def tempo():
 
 
 def run_blast():
-    nome_amostra = "bioinfo_web/myfile.fasta"  # Nome da Amostra
+
     global START_TIME
     START_TIME = time.time()
     print("Abrindo o Arquivo para analise")
-    dados_amostra = SeqIO.read(nome_amostra, "fasta")
     print("Buscando no Banco Online")
-    res_on = NCBIWWW.qblast("blastn", "nt", dados_amostra.seq)
     print("Blast:")
     tempo()
     print("Blast:")
     print("***********")
+    os.system(
+        "blastn -query bioinfo_web/myfile.fasta -db bioinfo_web/bd/viral_db -outfmt 5 -out bioinfo_web/blast_result")
+    res_on = open("bioinfo_web/blast_result")
     resultado = analise(res_on)
     return resultado
 
