@@ -1,0 +1,48 @@
+{
+  "assemblies": [
+    {
+      "name": "Haemagogus_janthinomys",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Haemagogus_janthinomys-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Haemagogus_janthinomys.fasta"
+          },
+          "faiLocation": {
+            "uri": "Haemagogus_janthinomys.fasta.fai"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "Vetor_Yellow_Fever_NC_028025.1.sorted.gff",
+      "name": "Vetor_Yellow_Fever_NC_028025.1.sorted.gff",
+      "assemblyNames": [
+        "Haemagogus_janthinomys"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Vetor_Yellow_Fever_NC_028025.1.sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "Vetor_Yellow_Fever_NC_028025.1.sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+    
+  ]
+}
