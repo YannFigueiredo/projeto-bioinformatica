@@ -22,7 +22,7 @@ footer.footer{
 }
 
 h1.h1_footer{
-    color: black;
+    color: white;
     font-size: 13px;
     text-align: center;
 }
@@ -94,7 +94,8 @@ a.a_link_exemplo{
 
 /*Estilo página do blast*/
 form#formulario_blast.form-contact.contact_form{
-    align-self: center;
+    margin: 0 auto;
+    width: 1000px;
 }
 
 div.row.pand{
@@ -102,7 +103,7 @@ div.row.pand{
     padding-top: 10px;
 }
 
-h1.h1_titulo_container_blast{
+h1#h1_titulo_container_blast{
     font-size: 18px;
     text-align: center;
     color: #264653;
@@ -153,6 +154,18 @@ input.input_submit{
     margin-top: 10px;
     margin-bottom: 80px;
 }
+
+div.form-group.row{
+    align-items: center;
+    margin-top: 15px;
+}
+
+div#inputFile{
+    width: 300px;
+    margin-left: 15px;
+    align-items: center;
+}
+
 /*styles resultado_blast*/
 div.resultado{
      overflow-y: scroll;
