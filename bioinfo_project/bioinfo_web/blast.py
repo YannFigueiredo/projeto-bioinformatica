@@ -22,6 +22,7 @@ except:
     from Bio import SeqIO
 import time
 import os
+import platform
 START_TIME = 0.0
 
 
@@ -42,8 +43,14 @@ def run_blast():
     print("Blast:")
     print("***********")
     path = os.getcwd()
-    path_blast = path + \
-        "/bioinfo_web/ncbi-blast-2.9.0+-x64-win64/ncbi-blast-2.9.0+/bin/ "
+    so = platform.system()
+
+    if so == "Windows":
+        path_blast = path + \
+            "/bioinfo_web/ncbi-blast-2.9.0+-x64-win64/ncbi-blast-2.9.0+/bin/ "
+    elif so == "Linux":
+        path_blast = path + "/bioinfo_web/ncbi-blast-2.9.0+/bin"
+
     myfile = path + "/bioinfo_web/myfile.fasta"
     bd = path + "/bioinfo_web/bd/viral_db"
     out_blast = path + "/bioinfo_web/blast_result"
