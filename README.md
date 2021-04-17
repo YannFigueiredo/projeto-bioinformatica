@@ -4,7 +4,7 @@
 ## Documentação
 
 > ### Requisitos:
-//
+
 #### Python
 ![python](/bioinfo_project/bioinfo_web/static/imagens/python_logo.png)
 - <b>Instalação no Windows:</b> Para instalar o Python no  Windows é necessário baixar o mesmo [clicando aqui](https://www.python.org/downloads/). No Linux o Python já  vem instalado.
