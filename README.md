@@ -22,7 +22,7 @@
 <p align="center">Python 3: <i>pip3 install django</i></p>
 
 ### NodeJS
-![nodejs_logo](nodejs-logo.png)
+![nodejs_logo](bioinfo_project/bioinfo_web/static/imagens/nodejs-logo.png)
 - <b>Instalação no Windows:</b> Baixar o instalador [clicando aqui](https://nodejs.org/pt-br/#home-downloadhead).
 - <b>Instalação no Linux Ubuntu:</b> Inserir o comando abaixo abaixo no terminal.
 <p align="center"><i>sudo apt install nodejs</i></p>
