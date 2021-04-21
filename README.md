@@ -21,7 +21,13 @@
 <p align="center">Python 2: <i>pip install django</i></p>
 <p align="center">Python 3: <i>pip3 install django</i></p>
 
-⚠️<b>Atenção:</b> Caso a máquina com Linux não tenha o gerenciador de pacotes pip é necessário fazer a instalação executando um dos comandos abaixo no terminal:
+### NodeJS
+![nodejs_logo](nodejs-logo.png)
+- <b>Instalação no Windows:</b> Baixar o instalador [clicando aqui](https://nodejs.org/pt-br/#home-downloadhead).
+- <b>Instalação no Linux Ubuntu:</b> Inserir o comando abaixo abaixo no terminal.
+<p align="center"><i>sudo apt install nodejs</i></p>
+
+⚠️<b>Atenção:</b> Caso a máquina com Linux não tenha o gerenciador de pacotes pip é necessário fazer a instalação executando um dos comandos abaixo no terminal.
 <p align="center">Python 2: <i>sudo apt install python-pip</i></p>
 <p align="center">Python 3: <i>sudo apt install python3-pip</i></p>
 
