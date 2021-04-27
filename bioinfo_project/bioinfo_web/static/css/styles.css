@@ -14,11 +14,12 @@ html{
 }
 
 /*Estilo rodapé*/
-footer.footer{
-    background-color: #f0efeb;
+footer#footer.footer.bg-dark{
     position: absolute;
     width: 100%;
     bottom: 0;
+    margin-bottom: 0px;
+    /*margin-top: 8px;*/
 }
 
 h1.h1_footer{
@@ -82,6 +83,11 @@ form.form-inline{
 }
 
 /*Estilo página home*/
+figure.figura-virus{
+   width: 240px;
+   float: right;
+}
+
 h1.h1_home{
     font-size: 14px;
     margin-left: 10px;
@@ -104,7 +110,7 @@ div.row.pand{
 }
 
 h1#h1_titulo_container_blast{
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: #264653;
 }
@@ -171,4 +177,23 @@ div.resultado{
      overflow-y: scroll;
      width: 100%;
      height: 840px;
+}
+
+h2.identificacao-alinhamento{
+    color: darkblue;
+    font-size: 20px;
+}
+
+h3.infos-alinhamento{
+    font-size: 18px;
+}
+
+hr.divisoria-alinhamento{
+    border: 2px solid;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+div.resultado.container{
+    /*...*/
 }
