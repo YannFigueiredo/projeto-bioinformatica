@@ -83,6 +83,11 @@ form.form-inline{
 }
 
 /*Estilo página home*/
+figure.figura-virus{
+   width: 240px;
+   float: right;
+}
+
 h1.h1_home{
     font-size: 14px;
     margin-left: 10px;
