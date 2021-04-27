@@ -83,9 +83,28 @@ form.form-inline{
 }
 
 /*Estilo página home*/
+#card-texto-home{
+    margin-bottom: 60px;
+}
+
+.aviso-txt-temp{
+    border-style: dashed;
+    border-color: red;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+p.card-text{
+    text-align: justify;
+    text-indent: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
 figure.figura-virus{
    width: 240px;
    float: right;
+   margin-left: 15px;
 }
 
 h1.h1_home{
