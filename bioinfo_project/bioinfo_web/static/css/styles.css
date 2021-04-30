@@ -119,8 +119,13 @@ a.a_link_exemplo{
 
 /*Estilo página do blast*/
 form#formulario_blast.form-contact.contact_form{
-    margin: 0 auto;
-    width: 1000px;
+    margin: auto;
+    width: 60%;
+}
+
+div.conteudo-form{
+    width: 600px;
+    margin: auto;
 }
 
 div.row.pand{
@@ -136,37 +141,37 @@ h1#h1_titulo_container_blast{
 
 h1.h1_tag_blast{
     font-size: 13px;
-    align-self: center;
+    margin-top: 8px;
 }
 h1.h1_tag_amostra{
     font-size: 13px;
-    align-self: center;
 }
 select#select_program.form-control.selectProgram{
-    margin-left: 5px;
-    width: 400px;
-    align-self: center;
+    width: 600px;
 }
 
 select#select_database.form-control.selectDatabase{
-    margin-left: 40px;
-    width: 400px;
-    align-self: center;
+    width: 600px;
 }
 
 input.input_arquivo{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 input.input_other_options{
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 5px;
-    align-self: center;
 }
 
 input.input_submit:hover{
     background-color: #2a9d8f;
+}
+
+div.campo-submit{
+    margin: auto;
+    margin-top: 15px;
+    width: 100px;
 }
 
 input.input_submit{
@@ -174,15 +179,16 @@ input.input_submit{
     color: white;
     border-radius: 8px;
     padding: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 80px;
+    width: 100px;
+    margin: auto;
 }
 
 div.form-group.row{
     align-items: center;
     margin-top: 15px;
+    width: 400px;
+    margin: auto;
+    padding: 8px;
 }
 
 div#inputFile{
