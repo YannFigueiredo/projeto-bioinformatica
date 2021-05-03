@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="row justify-content-center">
-    <div class="col-lg-9 align-self-center">
+    <div class="col-lg-9 align-self-center" id="div-principal-home">
         <div id="card-texto-home" class="card border-dark text-center">
             <div class="card-header">
                 <b>Yellow Fever Genome Sequence</b>
@@ -33,7 +33,7 @@
                     e os agentes infecciosos que eles podem abrigar e potencialmente transmitir.
                 </p>
                 <p class="card-text">
-                    Os dados usados para compor as ferramentas deste site foram extraídos do repositório da NCBI 
+                    Os dados usados para compor as ferramentas deste site foram extraídos do repositório do NCBI 
                     (National Center for Biotechnology Information). Foram usados um arquivo FASTA, que contém toda a 
                     sequência do genoma do vírus da febre amarela, e um arquivo GFF, um formato para armazenamento de 
                     dados de anotação com estrutura tabular que contém informações de determinados trechos da sequência 
@@ -45,7 +45,7 @@
                     genoma do vírus da febre amarela, fazendo comparação  com diversos organismos da base de dados do 
                     NCBI para encontrar similaridades na sequência. O JBrowse é uma outra ferramenta, onde o objetivo é 
                     fornecer uma opção de disponibilização gráfica da sequência do genoma da febre amarela, e também 
-                    fornecer mais detalhamentos, como a presença de proteínas de determinados trechos, dessa sequência 
+                    fornecer mais detalhamentos, como a presença de proteínas em determinados trechos, dessa sequência 
                     por meio do arquivo GFF. O site conta ainda com uma opção de visualizar a árvore filogenética do 
                     organismo, para tornar possível a identificação da relação evolutiva envolvendo o vírus da febre 
                     amarela. 
@@ -61,4 +61,5 @@
             </div>
         </div>
     </div>
+</div>
 {% endblock %}

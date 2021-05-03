@@ -16,7 +16,7 @@ html{
 /*Estilo rodapé*/
 footer#footer.footer.bg-dark{
     position: absolute;
-    width: 100%;
+    width: 600px;
     bottom: 0;
     margin-bottom: 0px;
     /*margin-top: 8px;*/
@@ -115,6 +115,10 @@ h1.h1_home{
 a.a_link_exemplo{
     font-size: 14px;
     margin-left: 10px;
+}
+
+div#div-principal-home{
+    background-color: blueviolet;
 }
 
 /*Estilo página do blast*/
