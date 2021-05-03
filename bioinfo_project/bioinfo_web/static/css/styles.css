@@ -16,7 +16,8 @@ html{
 /*Estilo rodapé*/
 footer#footer.footer.bg-dark{
     position: absolute;
-    width: 600px;
+    /*width: 600px;*/
+    width: 100%;
     bottom: 0;
     margin-bottom: 0px;
     /*margin-top: 8px;*/
@@ -117,9 +118,9 @@ a.a_link_exemplo{
     margin-left: 10px;
 }
 
-div#div-principal-home{
+/*div#div-principal-home{
     background-color: blueviolet;
-}
+}*/
 
 /*Estilo página do blast*/
 form#formulario_blast.form-contact.contact_form{
