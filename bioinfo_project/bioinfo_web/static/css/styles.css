@@ -14,15 +14,17 @@ html{
 }
 
 /*Estilo rodapé*/
-footer.footer{
-    background-color: #f0efeb;
+footer#footer.footer.bg-dark{
     position: absolute;
+    /*width: 600px;*/
     width: 100%;
     bottom: 0;
+    margin-bottom: 0px;
+    /*margin-top: 8px;*/
 }
 
 h1.h1_footer{
-    color: black;
+    color: white;
     font-size: 13px;
     text-align: center;
 }
@@ -82,6 +84,30 @@ form.form-inline{
 }
 
 /*Estilo página home*/
+#card-texto-home{
+    margin-bottom: 60px;
+}
+
+.aviso-txt-temp{
+    border-style: dashed;
+    border-color: red;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+p.card-text{
+    text-align: justify;
+    text-indent: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+figure.figura-virus{
+   width: 240px;
+   float: right;
+   margin-left: 15px;
+}
+
 h1.h1_home{
     font-size: 14px;
     margin-left: 10px;
@@ -92,9 +118,19 @@ a.a_link_exemplo{
     margin-left: 10px;
 }
 
+/*div#div-principal-home{
+    background-color: blueviolet;
+}*/
+
 /*Estilo página do blast*/
 form#formulario_blast.form-contact.contact_form{
-    align-self: center;
+    margin: auto;
+    width: 60%;
+}
+
+div.conteudo-form{
+    width: 600px;
+    margin: auto;
 }
 
 div.row.pand{
@@ -102,45 +138,45 @@ div.row.pand{
     padding-top: 10px;
 }
 
-h1.h1_titulo_container_blast{
-    font-size: 18px;
+h1#h1_titulo_container_blast{
+    font-size: 20px;
     text-align: center;
     color: #264653;
 }
 
 h1.h1_tag_blast{
     font-size: 13px;
-    align-self: center;
+    margin-top: 8px;
 }
 h1.h1_tag_amostra{
     font-size: 13px;
-    align-self: center;
 }
 select#select_program.form-control.selectProgram{
-    margin-left: 5px;
-    width: 400px;
-    align-self: center;
+    width: 600px;
 }
 
 select#select_database.form-control.selectDatabase{
-    margin-left: 40px;
-    width: 400px;
-    align-self: center;
+    width: 600px;
 }
 
 input.input_arquivo{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 input.input_other_options{
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 5px;
-    align-self: center;
 }
 
 input.input_submit:hover{
     background-color: #2a9d8f;
+}
+
+div.campo-submit{
+    margin: auto;
+    margin-top: 15px;
+    width: 100px;
 }
 
 input.input_submit{
@@ -148,14 +184,46 @@ input.input_submit{
     color: white;
     border-radius: 8px;
     padding: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 80px;
+    width: 100px;
+    margin: auto;
 }
+
+div.form-group.row{
+    align-items: center;
+    margin-top: 15px;
+    width: 400px;
+    margin: auto;
+    padding: 8px;
+}
+
+div#inputFile{
+    width: 300px;
+    margin-left: 15px;
+    align-items: center;
+}
+
 /*styles resultado_blast*/
 div.resultado{
      overflow-y: scroll;
      width: 100%;
      height: 840px;
+}
+
+h2.identificacao-alinhamento{
+    color: darkblue;
+    font-size: 20px;
+}
+
+h3.infos-alinhamento{
+    font-size: 18px;
+}
+
+hr.divisoria-alinhamento{
+    border: 2px solid;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+div.resultado.container{
+    /*...*/
 }

@@ -1,0 +1,217 @@
+PACKAGE_NAME: blast
+PACKAGE_VERSION: 2.9.0
+PACKAGE_SIGNATURE: MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+PACKAGE_CONFIG: Win64 : plain : vs2017 static 64 ReleaseDLL
+
+>>>>>  blastp.exe
+
+blastp: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  blastn.exe
+
+blastn: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  blastx.exe
+
+blastx: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  tblastn.exe
+
+tblastn: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  tblastx.exe
+
+tblastx: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  psiblast.exe
+
+psiblast: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  rpsblast.exe
+
+rpsblast: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  rpstblastn.exe
+
+rpstblastn: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  makembindex.exe
+
+makembindex: 0.0.0
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  segmasker.exe
+
+segmasker: 1.0.0
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  dustmasker.exe
+
+dustmasker: 1.0.0
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  windowmasker.exe
+
+windowmasker: 1.0.0
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+ window-masker-algorithm:1.0.0
+
+ windowmasker-statistics-algorithm-version:1.0.0
+
+ windowmasker-statistics-format-version:ascii 1.0.0
+
+ windowmasker-statistics-format-version:binary 1.0.0
+
+ windowmasker-statistics-format-version:oascii 1.0.0
+
+ windowmasker-statistics-format-version:obinary 1.0.0
+
+
+
+>>>>>  deltablast.exe
+
+deltablast: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  makeblastdb.exe
+
+makeblastdb: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  blastdbcmd.exe
+
+blastdbcmd: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  blastdb_aliastool.exe
+
+blastdb_aliastool: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  convert2blastmask.exe
+
+convert2blastmask: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  blastdbcheck.exe
+
+blastdbcheck: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  makeprofiledb.exe
+
+makeprofiledb: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
+>>>>>  blast_formatter.exe
+
+blast_formatter: 2.9.0+
+ Package: blast 2.9.0, build Mar 11 2019 15:18:27
+ Package-Config:  vs2017 static  64  ReleaseDLL
+ Build-Signature:  MSVC_1500-ReleaseDLLMT--i386-pc-x64-MSCOREMAKE104
+ Build-Date:  Mar 11 2019 15:18:27
+
+
+
