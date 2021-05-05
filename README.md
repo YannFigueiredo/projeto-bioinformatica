@@ -51,7 +51,7 @@ Para acessar a aplicação web é necessário ativar a mesma no servidor local d
 
 Para acessar o JBrowse no site é necessário ativar o mesmo em um outro servidor local, fora o que roda o site em si. Após ter instalado o NodeJS é necessário navegar até o diretório do Jbrowse no projeto, como mostra a imagem abaixo.
 ![acessando-pasta-jbrowse](/bioinfo_project/bioinfo_web/static/imagens/acessando-pasta-jbrowse.gif)
-Para ativar o JBrowse, já estando no diretório do mesmo basta digitar o comando "npx serve". Feito isso já possível acessar o JBrowse no site. As imagens abaixo mostram essas últimas duas etapas.
+Para ativar o JBrowse, já estando no diretório do mesmo, basta digitar o comando "npx serve". Feito isso já é possível acessar o JBrowse no site. As imagens abaixo mostram essas últimas duas etapas.
 - <b>Ativando JBrowse</b>
 ![ativando-jbrowse](/bioinfo_project/bioinfo_web/static/imagens/ativando-servidor-jbrowse.gif)
 - <b>Acessando JBrowse</b>
