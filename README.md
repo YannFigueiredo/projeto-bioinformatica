@@ -47,7 +47,7 @@ Para acessar a aplicação web é necessário ativar a mesma no servidor local d
 - <b>Acessar o servidor local:</b> Depois de ativar a aplicação web no servidor local é possível acessá-la pelo seu navegador ao informar a url "http://localhost:8000/", responsável por direcionar ao servidor local. A imagem abaixo mostra como é feito.
 ![acessando-localhost](/bioinfo_project/bioinfo_web/static/imagens/acessando-localhost.gif)
 
-> ###Ativar um servidor para acessar a ferramenta Jbrowse
+> ### Ativação de um servidor para acessar a ferramenta JBrowse
 
 Para acessar o JBrowse no site é necessário ativar o mesmo em um outro servidor local, fora o que roda o site em si. Após ter instalado o NodeJS é necessário navegar até o diretório do Jbrowse no projeto, como mostra a imagem abaixo.
 ![acessando-pasta-jbrowse](/bioinfo_project/bioinfo_web/static/imagens/acessando-pasta-jbrowse.gif)
