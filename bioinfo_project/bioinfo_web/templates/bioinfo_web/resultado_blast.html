@@ -21,6 +21,43 @@
                        'Identidade': 109.44}--->
 
         {%endfor%}
-        <br><br>
+        <a id="download-result" class="link-download">
+                <button class="button-download">Baixar resultado em PDF</button>
+        </a>
+        <br><br><br><br><br>
 </div>
+
+<script>
+        const linkDownload = document.getElementById("download-result");
+        linkDownload.addEventListener("click", function(event){
+                var conteudo = "";
+                var lista_alinhamento = [
+                        {% for alinhamento in alinhamentos %}
+                                {% if not forloop.first %}, {% endif %}
+                                {
+                                id_alinhamento: "{{forloop.counter}}",
+                                sequencia: "{{alinhamento.sequencia}}",
+                                tamanho: "{{alinhamento.tamanho}}",
+                                score: "{{alinhamento.score}}",
+                                identidade: "{{alinhamento.identidade}}"
+                                }
+                        {% endfor %}
+                ];
+                
+                for(i=0; i<lista_alinhamento.length; i++){
+                        conteudo = conteudo + 'Alinhamento: ' + (lista_alinhamento[i].id_alinhamento) + '\n';
+                        conteudo = conteudo + 'Sequência: ' + lista_alinhamento[i].sequencia + '\n';
+                        conteudo = conteudo + 'Tamanho: ' + lista_alinhamento[i].tamanho + '\n';
+                        conteudo = conteudo + 'Score: ' + lista_alinhamento[i].score + '\n';
+                        conteudo = conteudo + 'Identidade: ' + lista_alinhamento[i].identidade + '\n';
+                        conteudo = conteudo +"_____________________________________________________________________";
+                        conteudo = conteudo + "\n";
+                }
+
+                console.log(conteudo);
+
+                linkDownload.setAttribute('href', conteudo);
+                linkDownload.setAttribute('download', 'blast_result.pdf');
+        }, false);
+</script>
 {% endblock %}
