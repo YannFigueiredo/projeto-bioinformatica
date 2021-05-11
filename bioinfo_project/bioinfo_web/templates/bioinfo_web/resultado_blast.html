@@ -46,15 +46,15 @@
                         {% endfor %}
                 ];
                 
-                conteudo = conteudo + "Blast Result\n\n";
+                conteudo = conteudo + 'Blast Result\n\n';
                 for(i=0; i<lista_alinhamento.length; i++){
-                        conteudo = conteudo + 'Alinhamento: ' + (lista_alinhamento[i].id_alinhamento) + '\n';
+                        conteudo = conteudo + 'Alinhamento: ' + lista_alinhamento[i].id_alinhamento + '\n';
                         conteudo = conteudo + 'Sequência: ' + lista_alinhamento[i].sequencia + '\n';
                         conteudo = conteudo + 'Tamanho: ' + lista_alinhamento[i].tamanho + '\n';
                         conteudo = conteudo + 'Score: ' + lista_alinhamento[i].score + '\n';
                         conteudo = conteudo + 'Identidade: ' + lista_alinhamento[i].identidade + '\n';
-                        conteudo = conteudo +"____________________________________________________________________________________________________";
-                        conteudo = conteudo + "\n";
+                        conteudo = conteudo +'____________________________________________________________________________________________________';
+                        conteudo = conteudo + '\n';
                 }
 
                 linkDownload.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(conteudo));
