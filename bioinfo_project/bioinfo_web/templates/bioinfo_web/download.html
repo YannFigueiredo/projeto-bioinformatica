@@ -4,12 +4,23 @@
 
 {% block content %}
 
-<p>Baixar arquivo fasta do vírus da febre amarela</p>
-<a><button>Download</button></a>
-<p>Baixar arquivo fasta do vetor da febre amarela</p>
-<a><button>Download</button></a>
-<p>Baixar arquivo gff do vírus da febre amarela</p>
-<a><button>Download</button></a>
-<!--href="files/YellowFever.fasta" download-->
+<div class="conteiner-download">
+    <p class="label-download">Arquivo fasta do vírus da febre amarela</p>
+    <a class="link-download" href="../../files/YellowFever.fasta" download>
+        <button class="button-download">Download</button>
+    </a>
+</div>
+<div class="conteiner-download">
+    <p class="label-download">Arquivo fasta do vetor da febre amarela</p>
+    <a class="link-download" href="../../files/Haemagogus_janthinomys.fasta" download>
+        <button class="button-download">Download</button>
+    </a>
+</div>
+<div class="conteiner-download">
+    <p class="label-download">Arquivo gff do vírus da febre amarela&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <a class="link-download" href="../../files/Vetor_Yellow Fever_NC_028025.1.gff3" download>
+        <button class="button-download">Download</button>
+    </a>
+</div>
 
 {% endblock %}

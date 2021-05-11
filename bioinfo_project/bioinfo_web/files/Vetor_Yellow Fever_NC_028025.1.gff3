@@ -1,0 +1,103 @@
+##sequence-region NC_028025.1 1 15698
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1677689
+NC_028025.1	RefSeq	region	1	15698	.	+	.	ID=NC_028025.1:1..15698;Dbxref=taxon:1677689;Is_circular=true;Name=MT;collection-date=2013;country=Brazil: Para State;gbkey=Src;genome=mitochondrion;lat-lon=1.2273 S 48.2972 W;mol_type=genomic DNA
+NC_028025.1	RefSeq	gene	1	67	.	+	.	ID=gene-APQ92_gt01;Dbxref=GeneID:26043736;Name=trnI(gat);gbkey=Gene;gene=trnI(gat);gene_biotype=tRNA;locus_tag=APQ92_gt01
+NC_028025.1	RefSeq	tRNA	1	67	.	+	.	ID=rna-APQ92_gt01;Parent=gene-APQ92_gt01;Dbxref=GeneID:26043736;gbkey=tRNA;gene=trnI(gat);locus_tag=APQ92_gt01;product=tRNA-Ile
+NC_028025.1	RefSeq	exon	1	67	.	+	.	ID=exon-APQ92_gt01-1;Parent=rna-APQ92_gt01;Dbxref=GeneID:26043736;gbkey=tRNA;gene=trnI(gat);locus_tag=APQ92_gt01;product=tRNA-Ile
+NC_028025.1	RefSeq	gene	70	138	.	-	.	ID=gene-APQ92_gt02;Dbxref=GeneID:26043700;Name=trnQ(ttg);gbkey=Gene;gene=trnQ(ttg);gene_biotype=tRNA;locus_tag=APQ92_gt02
+NC_028025.1	RefSeq	tRNA	70	138	.	-	.	ID=rna-APQ92_gt02;Parent=gene-APQ92_gt02;Dbxref=GeneID:26043700;gbkey=tRNA;gene=trnQ(ttg);locus_tag=APQ92_gt02;product=tRNA-Gln
+NC_028025.1	RefSeq	exon	70	138	.	-	.	ID=exon-APQ92_gt02-1;Parent=rna-APQ92_gt02;Dbxref=GeneID:26043700;gbkey=tRNA;gene=trnQ(ttg);locus_tag=APQ92_gt02;product=tRNA-Gln
+NC_028025.1	RefSeq	gene	138	206	.	+	.	ID=gene-APQ92_gt03;Dbxref=GeneID:26043701;Name=trnM(cat);gbkey=Gene;gene=trnM(cat);gene_biotype=tRNA;locus_tag=APQ92_gt03
+NC_028025.1	RefSeq	tRNA	138	206	.	+	.	ID=rna-APQ92_gt03;Parent=gene-APQ92_gt03;Dbxref=GeneID:26043701;gbkey=tRNA;gene=trnM(cat);locus_tag=APQ92_gt03;product=tRNA-Met
+NC_028025.1	RefSeq	exon	138	206	.	+	.	ID=exon-APQ92_gt03-1;Parent=rna-APQ92_gt03;Dbxref=GeneID:26043701;gbkey=tRNA;gene=trnM(cat);locus_tag=APQ92_gt03;product=tRNA-Met
+NC_028025.1	RefSeq	gene	207	1232	.	+	.	ID=gene-APQ92_gp13;Dbxref=GeneID:26043702;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=APQ92_gp13
+NC_028025.1	RefSeq	CDS	207	1232	.	+	0	ID=cds-YP_009170143.1;Parent=gene-APQ92_gp13;Dbxref=Genbank:YP_009170143.1,GeneID:26043702;Name=YP_009170143.1;gbkey=CDS;gene=ND2;locus_tag=APQ92_gp13;product=NADH dehydrogenase subunit 2;protein_id=YP_009170143.1;transl_table=5
+NC_028025.1	RefSeq	gene	1238	1306	.	+	.	ID=gene-APQ92_gt04;Dbxref=GeneID:26043703;Name=trnW(tca);gbkey=Gene;gene=trnW(tca);gene_biotype=tRNA;locus_tag=APQ92_gt04
+NC_028025.1	RefSeq	tRNA	1238	1306	.	+	.	ID=rna-APQ92_gt04;Parent=gene-APQ92_gt04;Dbxref=GeneID:26043703;gbkey=tRNA;gene=trnW(tca);locus_tag=APQ92_gt04;product=tRNA-Trp
+NC_028025.1	RefSeq	exon	1238	1306	.	+	.	ID=exon-APQ92_gt04-1;Parent=rna-APQ92_gt04;Dbxref=GeneID:26043703;gbkey=tRNA;gene=trnW(tca);locus_tag=APQ92_gt04;product=tRNA-Trp
+NC_028025.1	RefSeq	gene	1306	1372	.	-	.	ID=gene-APQ92_gt05;Dbxref=GeneID:26043704;Name=trnC(gca);gbkey=Gene;gene=trnC(gca);gene_biotype=tRNA;locus_tag=APQ92_gt05
+NC_028025.1	RefSeq	tRNA	1306	1372	.	-	.	ID=rna-APQ92_gt05;Parent=gene-APQ92_gt05;Dbxref=GeneID:26043704;gbkey=tRNA;gene=trnC(gca);locus_tag=APQ92_gt05;product=tRNA-Cys
+NC_028025.1	RefSeq	exon	1306	1372	.	-	.	ID=exon-APQ92_gt05-1;Parent=rna-APQ92_gt05;Dbxref=GeneID:26043704;gbkey=tRNA;gene=trnC(gca);locus_tag=APQ92_gt05;product=tRNA-Cys
+NC_028025.1	RefSeq	gene	1373	1439	.	-	.	ID=gene-APQ92_gt06;Dbxref=GeneID:26043705;Name=trnY(gta);gbkey=Gene;gene=trnY(gta);gene_biotype=tRNA;locus_tag=APQ92_gt06
+NC_028025.1	RefSeq	tRNA	1373	1439	.	-	.	ID=rna-APQ92_gt06;Parent=gene-APQ92_gt06;Dbxref=GeneID:26043705;gbkey=tRNA;gene=trnY(gta);locus_tag=APQ92_gt06;product=tRNA-Tyr
+NC_028025.1	RefSeq	exon	1373	1439	.	-	.	ID=exon-APQ92_gt06-1;Parent=rna-APQ92_gt06;Dbxref=GeneID:26043705;gbkey=tRNA;gene=trnY(gta);locus_tag=APQ92_gt06;product=tRNA-Tyr
+NC_028025.1	RefSeq	gene	1444	2974	.	+	.	ID=gene-APQ92_gp12;Dbxref=GeneID:26043706;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=APQ92_gp12;partial=true;start_range=.,1444
+NC_028025.1	RefSeq	CDS	1444	2974	.	+	0	ID=cds-YP_009170144.1;Parent=gene-APQ92_gp12;Dbxref=Genbank:YP_009170144.1,GeneID:26043706;Name=YP_009170144.1;Note=start codon not determined%3B TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX1;locus_tag=APQ92_gp12;partial=true;product=cytochrome c oxidase subunit I;protein_id=YP_009170144.1;start_range=.,1444;transl_except=(pos:2974..2974%2Caa:TERM);transl_table=5
+NC_028025.1	RefSeq	gene	2975	3041	.	+	.	ID=gene-APQ92_gt07;Dbxref=GeneID:26043707;Name=trnL2(taa);gbkey=Gene;gene=trnL2(taa);gene_biotype=tRNA;locus_tag=APQ92_gt07
+NC_028025.1	RefSeq	tRNA	2975	3041	.	+	.	ID=rna-APQ92_gt07;Parent=gene-APQ92_gt07;Dbxref=GeneID:26043707;Note=tRNA-LEU2;gbkey=tRNA;gene=trnL2(taa);locus_tag=APQ92_gt07;product=tRNA-Leu
+NC_028025.1	RefSeq	exon	2975	3041	.	+	.	ID=exon-APQ92_gt07-1;Parent=rna-APQ92_gt07;Dbxref=GeneID:26043707;Note=tRNA-LEU2;gbkey=tRNA;gene=trnL2(taa);locus_tag=APQ92_gt07;product=tRNA-Leu
+NC_028025.1	RefSeq	gene	3043	3727	.	+	.	ID=gene-APQ92_gp11;Dbxref=GeneID:26043708;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=APQ92_gp11
+NC_028025.1	RefSeq	CDS	3043	3727	.	+	0	ID=cds-YP_009170145.1;Parent=gene-APQ92_gp11;Dbxref=Genbank:YP_009170145.1,GeneID:26043708;Name=YP_009170145.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=APQ92_gp11;product=cytochrome c oxidase subunit II;protein_id=YP_009170145.1;transl_except=(pos:3727..3727%2Caa:TERM);transl_table=5
+NC_028025.1	RefSeq	gene	3728	3798	.	+	.	ID=gene-APQ92_gt08;Dbxref=GeneID:26043709;Name=trnK(ctt);gbkey=Gene;gene=trnK(ctt);gene_biotype=tRNA;locus_tag=APQ92_gt08
+NC_028025.1	RefSeq	tRNA	3728	3798	.	+	.	ID=rna-APQ92_gt08;Parent=gene-APQ92_gt08;Dbxref=GeneID:26043709;gbkey=tRNA;gene=trnK(ctt);locus_tag=APQ92_gt08;product=tRNA-Lys
+NC_028025.1	RefSeq	exon	3728	3798	.	+	.	ID=exon-APQ92_gt08-1;Parent=rna-APQ92_gt08;Dbxref=GeneID:26043709;gbkey=tRNA;gene=trnK(ctt);locus_tag=APQ92_gt08;product=tRNA-Lys
+NC_028025.1	RefSeq	gene	3810	3878	.	+	.	ID=gene-APQ92_gt09;Dbxref=GeneID:26043710;Name=trnD(gtc);gbkey=Gene;gene=trnD(gtc);gene_biotype=tRNA;locus_tag=APQ92_gt09
+NC_028025.1	RefSeq	tRNA	3810	3878	.	+	.	ID=rna-APQ92_gt09;Parent=gene-APQ92_gt09;Dbxref=GeneID:26043710;gbkey=tRNA;gene=trnD(gtc);locus_tag=APQ92_gt09;product=tRNA-Asp
+NC_028025.1	RefSeq	exon	3810	3878	.	+	.	ID=exon-APQ92_gt09-1;Parent=rna-APQ92_gt09;Dbxref=GeneID:26043710;gbkey=tRNA;gene=trnD(gtc);locus_tag=APQ92_gt09;product=tRNA-Asp
+NC_028025.1	RefSeq	gene	3879	4040	.	+	.	ID=gene-APQ92_gp10;Dbxref=GeneID:26043711;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=APQ92_gp10
+NC_028025.1	RefSeq	CDS	3879	4040	.	+	0	ID=cds-YP_009170146.1;Parent=gene-APQ92_gp10;Dbxref=Genbank:YP_009170146.1,GeneID:26043711;Name=YP_009170146.1;gbkey=CDS;gene=ATP8;locus_tag=APQ92_gp10;product=ATP synthase F0 subunit 8;protein_id=YP_009170146.1;transl_table=5
+NC_028025.1	RefSeq	gene	4034	4714	.	+	.	ID=gene-APQ92_gp09;Dbxref=GeneID:26043712;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=APQ92_gp09
+NC_028025.1	RefSeq	CDS	4034	4714	.	+	0	ID=cds-YP_009170147.1;Parent=gene-APQ92_gp09;Dbxref=Genbank:YP_009170147.1,GeneID:26043712;Name=YP_009170147.1;gbkey=CDS;gene=ATP6;locus_tag=APQ92_gp09;product=ATP synthase F0 subunit 6;protein_id=YP_009170147.1;transl_table=5
+NC_028025.1	RefSeq	gene	4718	5505	.	+	.	ID=gene-APQ92_gp08;Dbxref=GeneID:26043713;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=APQ92_gp08
+NC_028025.1	RefSeq	CDS	4718	5505	.	+	0	ID=cds-YP_009170148.1;Parent=gene-APQ92_gp08;Dbxref=Genbank:YP_009170148.1,GeneID:26043713;Name=YP_009170148.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=APQ92_gp08;product=cytochrome c oxidase subunit III;protein_id=YP_009170148.1;transl_except=(pos:5504..5505%2Caa:TERM);transl_table=5
+NC_028025.1	RefSeq	gene	5506	5572	.	+	.	ID=gene-APQ92_gt10;Dbxref=GeneID:26043714;Name=trnG(tcc);gbkey=Gene;gene=trnG(tcc);gene_biotype=tRNA;locus_tag=APQ92_gt10
+NC_028025.1	RefSeq	tRNA	5506	5572	.	+	.	ID=rna-APQ92_gt10;Parent=gene-APQ92_gt10;Dbxref=GeneID:26043714;gbkey=tRNA;gene=trnG(tcc);locus_tag=APQ92_gt10;product=tRNA-Gly
+NC_028025.1	RefSeq	exon	5506	5572	.	+	.	ID=exon-APQ92_gt10-1;Parent=rna-APQ92_gt10;Dbxref=GeneID:26043714;gbkey=tRNA;gene=trnG(tcc);locus_tag=APQ92_gt10;product=tRNA-Gly
+NC_028025.1	RefSeq	gene	5579	5926	.	+	.	ID=gene-APQ92_gp07;Dbxref=GeneID:26043715;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=APQ92_gp07
+NC_028025.1	RefSeq	CDS	5579	5926	.	+	0	ID=cds-YP_009170149.1;Parent=gene-APQ92_gp07;Dbxref=Genbank:YP_009170149.1,GeneID:26043715;Name=YP_009170149.1;gbkey=CDS;gene=ND3;locus_tag=APQ92_gp07;product=NADH dehydrogenase subunit 3;protein_id=YP_009170149.1;transl_table=5
+NC_028025.1	RefSeq	gene	5928	5991	.	+	.	ID=gene-APQ92_gt11;Dbxref=GeneID:26043716;Name=trnR(tcg);gbkey=Gene;gene=trnR(tcg);gene_biotype=tRNA;locus_tag=APQ92_gt11
+NC_028025.1	RefSeq	tRNA	5928	5991	.	+	.	ID=rna-APQ92_gt11;Parent=gene-APQ92_gt11;Dbxref=GeneID:26043716;gbkey=tRNA;gene=trnR(tcg);locus_tag=APQ92_gt11;product=tRNA-Arg
+NC_028025.1	RefSeq	exon	5928	5991	.	+	.	ID=exon-APQ92_gt11-1;Parent=rna-APQ92_gt11;Dbxref=GeneID:26043716;gbkey=tRNA;gene=trnR(tcg);locus_tag=APQ92_gt11;product=tRNA-Arg
+NC_028025.1	RefSeq	gene	5996	6063	.	+	.	ID=gene-APQ92_gt12;Dbxref=GeneID:26043717;Name=trnA(tgc);gbkey=Gene;gene=trnA(tgc);gene_biotype=tRNA;locus_tag=APQ92_gt12
+NC_028025.1	RefSeq	tRNA	5996	6063	.	+	.	ID=rna-APQ92_gt12;Parent=gene-APQ92_gt12;Dbxref=GeneID:26043717;gbkey=tRNA;gene=trnA(tgc);locus_tag=APQ92_gt12;product=tRNA-Ala
+NC_028025.1	RefSeq	exon	5996	6063	.	+	.	ID=exon-APQ92_gt12-1;Parent=rna-APQ92_gt12;Dbxref=GeneID:26043717;gbkey=tRNA;gene=trnA(tgc);locus_tag=APQ92_gt12;product=tRNA-Ala
+NC_028025.1	RefSeq	gene	6065	6133	.	+	.	ID=gene-APQ92_gt13;Dbxref=GeneID:26043718;Name=trnN(gtt);gbkey=Gene;gene=trnN(gtt);gene_biotype=tRNA;locus_tag=APQ92_gt13
+NC_028025.1	RefSeq	tRNA	6065	6133	.	+	.	ID=rna-APQ92_gt13;Parent=gene-APQ92_gt13;Dbxref=GeneID:26043718;gbkey=tRNA;gene=trnN(gtt);locus_tag=APQ92_gt13;product=tRNA-Asn
+NC_028025.1	RefSeq	exon	6065	6133	.	+	.	ID=exon-APQ92_gt13-1;Parent=rna-APQ92_gt13;Dbxref=GeneID:26043718;gbkey=tRNA;gene=trnN(gtt);locus_tag=APQ92_gt13;product=tRNA-Asn
+NC_028025.1	RefSeq	gene	6132	6198	.	-	.	ID=gene-APQ92_gt14;Dbxref=GeneID:26043719;Name=trnS1(gct);gbkey=Gene;gene=trnS1(gct);gene_biotype=tRNA;locus_tag=APQ92_gt14
+NC_028025.1	RefSeq	tRNA	6132	6198	.	-	.	ID=rna-APQ92_gt14;Parent=gene-APQ92_gt14;Dbxref=GeneID:26043719;Note=tRNA-SER1;gbkey=tRNA;gene=trnS1(gct);locus_tag=APQ92_gt14;product=tRNA-Ser
+NC_028025.1	RefSeq	exon	6132	6198	.	-	.	ID=exon-APQ92_gt14-1;Parent=rna-APQ92_gt14;Dbxref=GeneID:26043719;Note=tRNA-SER1;gbkey=tRNA;gene=trnS1(gct);locus_tag=APQ92_gt14;product=tRNA-Ser
+NC_028025.1	RefSeq	gene	6217	6282	.	+	.	ID=gene-APQ92_gt15;Dbxref=GeneID:26043720;Name=trnE(ttc);gbkey=Gene;gene=trnE(ttc);gene_biotype=tRNA;locus_tag=APQ92_gt15
+NC_028025.1	RefSeq	tRNA	6217	6282	.	+	.	ID=rna-APQ92_gt15;Parent=gene-APQ92_gt15;Dbxref=GeneID:26043720;gbkey=tRNA;gene=trnE(ttc);locus_tag=APQ92_gt15;product=tRNA-Glu
+NC_028025.1	RefSeq	exon	6217	6282	.	+	.	ID=exon-APQ92_gt15-1;Parent=rna-APQ92_gt15;Dbxref=GeneID:26043720;gbkey=tRNA;gene=trnE(ttc);locus_tag=APQ92_gt15;product=tRNA-Glu
+NC_028025.1	RefSeq	gene	6315	6381	.	-	.	ID=gene-APQ92_gt16;Dbxref=GeneID:26043721;Name=trnF(gaa);gbkey=Gene;gene=trnF(gaa);gene_biotype=tRNA;locus_tag=APQ92_gt16
+NC_028025.1	RefSeq	tRNA	6315	6381	.	-	.	ID=rna-APQ92_gt16;Parent=gene-APQ92_gt16;Dbxref=GeneID:26043721;gbkey=tRNA;gene=trnF(gaa);locus_tag=APQ92_gt16;product=tRNA-Phe
+NC_028025.1	RefSeq	exon	6315	6381	.	-	.	ID=exon-APQ92_gt16-1;Parent=rna-APQ92_gt16;Dbxref=GeneID:26043721;gbkey=tRNA;gene=trnF(gaa);locus_tag=APQ92_gt16;product=tRNA-Phe
+NC_028025.1	RefSeq	gene	6388	8130	.	-	.	ID=gene-APQ92_gp06;Dbxref=GeneID:26043722;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=APQ92_gp06
+NC_028025.1	RefSeq	CDS	6388	8130	.	-	0	ID=cds-YP_009170150.1;Parent=gene-APQ92_gp06;Dbxref=Genbank:YP_009170150.1,GeneID:26043722;Name=YP_009170150.1;gbkey=CDS;gene=ND5;locus_tag=APQ92_gp06;product=NADH dehydrogenase subunit 5;protein_id=YP_009170150.1;transl_table=5
+NC_028025.1	RefSeq	gene	8131	8195	.	-	.	ID=gene-APQ92_gt17;Dbxref=GeneID:26043723;Name=trnH(gtg);gbkey=Gene;gene=trnH(gtg);gene_biotype=tRNA;locus_tag=APQ92_gt17
+NC_028025.1	RefSeq	tRNA	8131	8195	.	-	.	ID=rna-APQ92_gt17;Parent=gene-APQ92_gt17;Dbxref=GeneID:26043723;gbkey=tRNA;gene=trnH(gtg);locus_tag=APQ92_gt17;product=tRNA-His
+NC_028025.1	RefSeq	exon	8131	8195	.	-	.	ID=exon-APQ92_gt17-1;Parent=rna-APQ92_gt17;Dbxref=GeneID:26043723;gbkey=tRNA;gene=trnH(gtg);locus_tag=APQ92_gt17;product=tRNA-His
+NC_028025.1	RefSeq	gene	8206	9522	.	-	.	ID=gene-APQ92_gp05;Dbxref=GeneID:26043724;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=APQ92_gp05
+NC_028025.1	RefSeq	CDS	8206	9522	.	-	0	ID=cds-YP_009170151.1;Parent=gene-APQ92_gp05;Dbxref=Genbank:YP_009170151.1,GeneID:26043724;Name=YP_009170151.1;gbkey=CDS;gene=ND4;locus_tag=APQ92_gp05;product=NADH dehydrogenase subunit 4;protein_id=YP_009170151.1;transl_table=5
+NC_028025.1	RefSeq	gene	9544	9825	.	-	.	ID=gene-APQ92_gp04;Dbxref=GeneID:26043725;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=APQ92_gp04
+NC_028025.1	RefSeq	CDS	9544	9825	.	-	0	ID=cds-YP_009170152.1;Parent=gene-APQ92_gp04;Dbxref=Genbank:YP_009170152.1,GeneID:26043725;Name=YP_009170152.1;gbkey=CDS;gene=ND4L;locus_tag=APQ92_gp04;product=NADH dehydrogenase subunit 4L;protein_id=YP_009170152.1;transl_table=5
+NC_028025.1	RefSeq	gene	9843	9907	.	+	.	ID=gene-APQ92_gt18;Dbxref=GeneID:26043726;Name=trnT(tgt);gbkey=Gene;gene=trnT(tgt);gene_biotype=tRNA;locus_tag=APQ92_gt18
+NC_028025.1	RefSeq	tRNA	9843	9907	.	+	.	ID=rna-APQ92_gt18;Parent=gene-APQ92_gt18;Dbxref=GeneID:26043726;gbkey=tRNA;gene=trnT(tgt);locus_tag=APQ92_gt18;product=tRNA-Thr
+NC_028025.1	RefSeq	exon	9843	9907	.	+	.	ID=exon-APQ92_gt18-1;Parent=rna-APQ92_gt18;Dbxref=GeneID:26043726;gbkey=tRNA;gene=trnT(tgt);locus_tag=APQ92_gt18;product=tRNA-Thr
+NC_028025.1	RefSeq	gene	9908	9974	.	-	.	ID=gene-APQ92_gt19;Dbxref=GeneID:26043727;Name=trnP(tgg);gbkey=Gene;gene=trnP(tgg);gene_biotype=tRNA;locus_tag=APQ92_gt19
+NC_028025.1	RefSeq	tRNA	9908	9974	.	-	.	ID=rna-APQ92_gt19;Parent=gene-APQ92_gt19;Dbxref=GeneID:26043727;gbkey=tRNA;gene=trnP(tgg);locus_tag=APQ92_gt19;product=tRNA-Pro
+NC_028025.1	RefSeq	exon	9908	9974	.	-	.	ID=exon-APQ92_gt19-1;Parent=rna-APQ92_gt19;Dbxref=GeneID:26043727;gbkey=tRNA;gene=trnP(tgg);locus_tag=APQ92_gt19;product=tRNA-Pro
+NC_028025.1	RefSeq	gene	9980	10495	.	+	.	ID=gene-APQ92_gp03;Dbxref=GeneID:26043728;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=APQ92_gp03
+NC_028025.1	RefSeq	CDS	9980	10495	.	+	0	ID=cds-YP_009170153.1;Parent=gene-APQ92_gp03;Dbxref=Genbank:YP_009170153.1,GeneID:26043728;Name=YP_009170153.1;gbkey=CDS;gene=ND6;locus_tag=APQ92_gp03;product=NADH dehydrogenase subunit 6;protein_id=YP_009170153.1;transl_table=5
+NC_028025.1	RefSeq	gene	10495	11631	.	+	.	ID=gene-APQ92_gp02;Dbxref=GeneID:26043729;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=APQ92_gp02
+NC_028025.1	RefSeq	CDS	10495	11631	.	+	0	ID=cds-YP_009170154.1;Parent=gene-APQ92_gp02;Dbxref=Genbank:YP_009170154.1,GeneID:26043729;Name=YP_009170154.1;gbkey=CDS;gene=CYTB;locus_tag=APQ92_gp02;product=cytochrome b;protein_id=YP_009170154.1;transl_table=5
+NC_028025.1	RefSeq	gene	11634	11699	.	+	.	ID=gene-APQ92_gt20;Dbxref=GeneID:26043730;Name=trnS2(tga);gbkey=Gene;gene=trnS2(tga);gene_biotype=tRNA;locus_tag=APQ92_gt20
+NC_028025.1	RefSeq	tRNA	11634	11699	.	+	.	ID=rna-APQ92_gt20;Parent=gene-APQ92_gt20;Dbxref=GeneID:26043730;Note=tRNA-SER2;gbkey=tRNA;gene=trnS2(tga);locus_tag=APQ92_gt20;product=tRNA-Ser
+NC_028025.1	RefSeq	exon	11634	11699	.	+	.	ID=exon-APQ92_gt20-1;Parent=rna-APQ92_gt20;Dbxref=GeneID:26043730;Note=tRNA-SER2;gbkey=tRNA;gene=trnS2(tga);locus_tag=APQ92_gt20;product=tRNA-Ser
+NC_028025.1	RefSeq	gene	11719	12669	.	-	.	ID=gene-APQ92_gp01;Dbxref=GeneID:26043731;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=APQ92_gp01
+NC_028025.1	RefSeq	CDS	11719	12669	.	-	0	ID=cds-YP_009170155.1;Parent=gene-APQ92_gp01;Dbxref=Genbank:YP_009170155.1,GeneID:26043731;Name=YP_009170155.1;gbkey=CDS;gene=ND1;locus_tag=APQ92_gp01;product=NADH dehydrogenase subunit 1;protein_id=YP_009170155.1;transl_table=5
+NC_028025.1	RefSeq	gene	12670	12736	.	-	.	ID=gene-APQ92_gt21;Dbxref=GeneID:26043732;Name=trnL1(tag);gbkey=Gene;gene=trnL1(tag);gene_biotype=tRNA;locus_tag=APQ92_gt21
+NC_028025.1	RefSeq	tRNA	12670	12736	.	-	.	ID=rna-APQ92_gt21;Parent=gene-APQ92_gt21;Dbxref=GeneID:26043732;Note=tRNA-LEU1;gbkey=tRNA;gene=trnL1(tag);locus_tag=APQ92_gt21;product=tRNA-Leu
+NC_028025.1	RefSeq	exon	12670	12736	.	-	.	ID=exon-APQ92_gt21-1;Parent=rna-APQ92_gt21;Dbxref=GeneID:26043732;Note=tRNA-LEU1;gbkey=tRNA;gene=trnL1(tag);locus_tag=APQ92_gt21;product=tRNA-Leu
+NC_028025.1	RefSeq	gene	12709	14073	.	-	.	ID=gene-APQ92_gr02;Dbxref=GeneID:26043733;Name=APQ92_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=APQ92_gr02
+NC_028025.1	RefSeq	rRNA	12709	14073	.	-	.	ID=rna-APQ92_gr02;Parent=gene-APQ92_gr02;Dbxref=GeneID:26043733;gbkey=rRNA;locus_tag=APQ92_gr02;product=16S ribosomal RNA
+NC_028025.1	RefSeq	exon	12709	14073	.	-	.	ID=exon-APQ92_gr02-1;Parent=rna-APQ92_gr02;Dbxref=GeneID:26043733;gbkey=rRNA;locus_tag=APQ92_gr02;product=16S ribosomal RNA
+NC_028025.1	RefSeq	gene	14072	14143	.	-	.	ID=gene-APQ92_gt22;Dbxref=GeneID:26043735;Name=trnV(tac);gbkey=Gene;gene=trnV(tac);gene_biotype=tRNA;locus_tag=APQ92_gt22
+NC_028025.1	RefSeq	tRNA	14072	14143	.	-	.	ID=rna-APQ92_gt22;Parent=gene-APQ92_gt22;Dbxref=GeneID:26043735;gbkey=tRNA;gene=trnV(tac);locus_tag=APQ92_gt22;product=tRNA-Val
+NC_028025.1	RefSeq	exon	14072	14143	.	-	.	ID=exon-APQ92_gt22-1;Parent=rna-APQ92_gt22;Dbxref=GeneID:26043735;gbkey=tRNA;gene=trnV(tac);locus_tag=APQ92_gt22;product=tRNA-Val
+NC_028025.1	RefSeq	gene	14143	14936	.	-	.	ID=gene-APQ92_gr01;Dbxref=GeneID:26043734;Name=APQ92_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=APQ92_gr01
+NC_028025.1	RefSeq	rRNA	14143	14936	.	-	.	ID=rna-APQ92_gr01;Parent=gene-APQ92_gr01;Dbxref=GeneID:26043734;gbkey=rRNA;locus_tag=APQ92_gr01;product=12S ribosomal RNA
+NC_028025.1	RefSeq	exon	14143	14936	.	-	.	ID=exon-APQ92_gr01-1;Parent=rna-APQ92_gr01;Dbxref=GeneID:26043734;gbkey=rRNA;locus_tag=APQ92_gr01;product=12S ribosomal RNA
+NC_028025.1	RefSeq	sequence_feature	14937	15698	.	-	.	ID=id-NC_028025.1:14937..15698;Note=A+T-rich control region;gbkey=misc_feature
+

@@ -228,3 +228,35 @@ hr.divisoria-alinhamento{
 div.resultado.container{
     /*...*/
 }
+
+/*Style página de download*/
+.conteiner-download{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.label-download{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.link-download{
+    color: white;
+}
+
+.link-download:hover{
+    color: white;
+}
+
+.button-download{
+    padding: 6px 20px 6px 20px;
+    background-color: #264653;
+    border-radius: 8px;
+    transition: all 0.6s linear;
+}
+
+.button-download:hover{
+    background-color:  #2a9d8f;
+}
