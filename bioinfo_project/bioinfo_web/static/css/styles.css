@@ -250,6 +250,10 @@ div.resultado.container{
     color: white;
 }
 
+.link-download:visited{
+    color: white;
+}
+
 .button-download{
     padding: 6px 20px 6px 20px;
     background-color: #264653;
