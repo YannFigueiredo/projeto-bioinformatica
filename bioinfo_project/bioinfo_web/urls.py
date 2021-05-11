@@ -9,7 +9,7 @@ urlpatterns = [
     path('blast/', views.blast, name='blast'),
     path('blast/dados/', views.get_dados_amostra, name='dados'),
     path('blast/resultado', views.resultado_blast, name='resultado_blast'),
-
+    path('download', views.download, name='download')
 ]
 
 if settings.DEBUG:
