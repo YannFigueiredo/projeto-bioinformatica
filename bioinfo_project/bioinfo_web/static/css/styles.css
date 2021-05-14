@@ -83,6 +83,29 @@ form.form-inline{
     margin-left: auto;
 }
 
+.navbar-abas{
+    padding-left: 0;
+}
+
+.nav-link{
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link:enabled{
+    color: white;
+}
+
+.nav-item{
+    text-decoration: none;
+    display: inline;
+}
+
 /*Estilo página home*/
 #card-texto-home{
     margin-bottom: 60px;

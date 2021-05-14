@@ -14,6 +14,10 @@ def download(request):
     return render(request, 'bioinfo_web/download.html')
 
 
+def sobre(request):
+    return render(request, 'bioinfo_web/sobre.html')
+
+
 def blast(request):
     return render(request, 'bioinfo_web/blast.html')
 
