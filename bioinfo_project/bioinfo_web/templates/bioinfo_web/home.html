@@ -1,9 +1,32 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block title %} Home {% endblock %}
 
 {% block content %}
-<div class="row justify-content-center" id="div-principal-home">
 
-</div>
+<section class="section-home">
+    <article class="article-funcoes">
+        <img src="{%static '/imagens/blastn-foto.png'  %}" alt="Foto fazendo referência ao Blastn"/>
+        <h1><b>Blastn</b></h1>
+        <p>Descrição: Essa ferramenta faz o alinhamento de sequências de nucleotídeos.</p>
+    </article>
+    <article class="article-funcoes">
+        <img src="{%static '/imagens/jbrowse-foto.png'  %}" alt="Foto fazendo referência ao JBrowse"/>
+        <h1><b>JBrowse</b></h1>
+        <p>Descrição: Essa ferramenta permite a visualização da posição de proteínas em determinadas partes de uma sequência de DNA.</p>
+    </article>
+    <article class="article-funcoes">
+        <img src="{%static '/imagens/arvore-foto.jpg'  %}" alt="Foto fazendo referência a árvore filogenética"/>
+        <h1><b>Árvore Filogenética</b></h1>
+        <p>Descrição: Essa ferramenta permite a visualização da árvore filognética do vírus da febre amarela.</p>
+    </article>    
+    <article class="article-funcoes">
+        <img src="{%static '/imagens/download-foto.png'  %}" alt="Foto fazendo referência a função de baixar arquivos e dados"/>
+        <h1><b>Download de arquivos/dados</b></h1>
+        <p>Descrição: Essa função permite ao usuário baixar os arquivos usados nas ferramentas desta aplicação web, como blatn e jbrowse, e ainda permite o download do resultado obtido após a execução do blastn.</p>
+    </article>
+</section>
+
 {% endblock %}

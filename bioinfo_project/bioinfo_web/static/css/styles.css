@@ -1,7 +1,7 @@
 /*Estilo body*/
 body{
     background-image: url("/static/imagens/fundo2.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     background-size: cover;
     position: relative;
@@ -107,6 +107,26 @@ form.form-inline{
 }
 
 /*Estilo página home*/
+.section-home{
+    width: 100%;
+    margin: auto;
+}
+
+.article-funcoes{
+    display: inline-block;
+    width: 20%;
+}
+
+.article-funcoes img{
+    width: 100%;
+}
+
+.article-funcoes h1{
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+/*Estilo página sobre*/
 #card-texto-home{
     margin-bottom: 60px;
 }
