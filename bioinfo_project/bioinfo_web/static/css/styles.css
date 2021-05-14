@@ -125,6 +125,11 @@ form.form-inline{
     width: 100%;
     border: 4px solid #264653;
     border-radius: 8px;
+    transition: all .4s linear;
+}
+
+.article-funcoes img:hover{
+    border: 4px solid #2a9d8f;
 }
 
 .article-funcoes h1{
