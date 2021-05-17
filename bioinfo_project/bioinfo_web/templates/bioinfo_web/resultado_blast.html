@@ -7,26 +7,43 @@
         <div class = "card-header" id="div_titulo_container_blast">
                 <h1 id="h1_titulo_container_blast"><b>Blast Result</b></h1>
         </div>
-        {% for alinhamento in alinhamentos %}
-
-        <h2 class="identificacao-alinhamento"><b>Alinhamento {{ forloop.counter }}</b></h2>
-        <h3 class="infos-alinhamento"><b>Sequência:</b> {{alinhamento.sequencia}}</h3>
-        <h3 class="infos-alinhamento"><b>Tamanho:</b> {{alinhamento.tamanho}}</h3>
-        <h3 class="infos-alinhamento"><b>Score:</b> {{alinhamento.score}}</h3>
-        <h3 class="infos-alinhamento"><b>Identidade:</b> {{alinhamento.identidade}}</h3>
-        <hr class="divisoria-alinhamento" noshade="noshade">
-        <!-- {'Sequencia':  'gi|1789823865|gb|MK583182.1| Yellow fever virus isolate YFV081FIG, complete genome',
-                       'Tamanho': 10944,
-                       'Score':  21888.0,
-                       'Identidade': 109.44}--->
-
-        {%endfor%}
+        <table class="table-blast-result">
+                <thead>
+                        <tr>
+                                <th>Identificação</th>
+                                <th>Sequência</th>
+                                <th>Tamanho</th>
+                                <th>Score</th>
+                                <th>Identidade</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        {% for alinhamento in alinhamentos %}
+                        <tr>
+                                <td>Alinhamento {{ forloop.counter }}</td>
+                                <td>{{alinhamento.sequencia}}</td>
+                                <td>{{alinhamento.tamanho}}</td>
+                                <td>{{alinhamento.score}}</td>
+                                <td>{{alinhamento.identidade}}%</td>
+                        </tr>
+                        <!--<h2 class="identificacao-alinhamento"><b>Alinhamento {{ forloop.counter }}</b></h2>
+                        <h3 class="infos-alinhamento"><b>Sequência:</b> {{alinhamento.sequencia}}</h3>
+                        <h3 class="infos-alinhamento"><b>Tamanho:</b> {{alinhamento.tamanho}}</h3>
+                        <h3 class="infos-alinhamento"><b>Score:</b> {{alinhamento.score}}</h3>
+                        <h3 class="infos-alinhamento"><b>Identidade:</b> {{alinhamento.identidade}}</h3>
+                        <hr class="divisoria-alinhamento" noshade="noshade">-->
+                        <!-- {'Sequencia':  'gi|1789823865|gb|MK583182.1| Yellow fever virus isolate YFV081FIG, complete genome',
+                                'Tamanho': 10944,
+                                'Score':  21888.0,
+                                'Identidade': 109.44}--->
+                        {%endfor%}      
+                </tbody>
+        </table>
         <div class="conteiner-download">
                 <a style="color: white;" id="download-result" class="link-download">
                         <button class="button-download">Baixar resultado</button>
                 </a>
         </div>
-        <br><br><br><br><br>
 </div>
 
 <script>

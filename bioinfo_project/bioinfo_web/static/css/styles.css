@@ -185,9 +185,17 @@ form#formulario_blast.form-contact.contact_form{
     width: 60%;
 }
 
+#div_titulo_container_blast{
+    margin-bottom: 0;
+}
+
 div.conteudo-form{
     width: 600px;
     margin: auto;
+}
+
+#container_campos_blast{
+    padding-bottom: 80px;
 }
 
 div.row.pand{
@@ -210,10 +218,24 @@ h1.h1_tag_amostra{
 }
 select#select_program.form-control.selectProgram{
     width: 600px;
+    border-radius: 8px;
 }
 
 select#select_database.form-control.selectDatabase{
     width: 600px;
+    border-radius: 8px;
+}
+
+#textArea{
+    resize: none;
+    height: 140px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: border 0.3s linear;
+}
+
+#textArea:hover, #textArea:focus{
+    border: 2px solid #2a9d8f;
 }
 
 input.input_arquivo{
@@ -243,6 +265,7 @@ input.input_submit{
     padding: 8px;
     width: 100px;
     margin: auto;
+    transition: all .1s linear;
 }
 
 div.form-group.row{
@@ -279,6 +302,33 @@ hr.divisoria-alinhamento{
     border: 2px solid;
     border-color: darkblue;
     color: darkblue;
+}
+
+.table-blast-result{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.table-blast-result th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.table-blast-result th{
+    background-color: #264653;
+    color: white;
+}
+
+.table-blast-result td{
+    padding: 8px;
+}
+
+.table-blast-result tr:nth-child(odd) td{
+    background-color: rgb(170, 170, 170);
+}
+
+.table-blast-result tr:nth-child(even) td{
+    background-color: #ccc;
 }
 
 /*Style página de download*/
