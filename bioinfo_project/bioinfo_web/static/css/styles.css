@@ -265,7 +265,7 @@ input.input_submit{
     padding: 8px;
     width: 100px;
     margin: auto;
-    transition: all .1s linear;
+    transition: all .5s linear;
 }
 
 div.form-group.row{
@@ -360,7 +360,7 @@ hr.divisoria-alinhamento{
     padding: 6px 20px 6px 20px;
     background-color: #264653;
     border-radius: 8px;
-    transition: all 0.8s linear;
+    transition: all 0.5s linear;
 }
 
 .button-download:hover{
