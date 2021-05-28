@@ -10,6 +10,14 @@ def home(request):
     return render(request, 'bioinfo_web/home.html')
 
 
+def download(request):
+    return render(request, 'bioinfo_web/download.html')
+
+
+def sobre(request):
+    return render(request, 'bioinfo_web/sobre.html')
+
+
 def blast(request):
     return render(request, 'bioinfo_web/blast.html')
 
