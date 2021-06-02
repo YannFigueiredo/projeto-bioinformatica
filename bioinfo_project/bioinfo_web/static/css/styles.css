@@ -367,7 +367,10 @@ hr.divisoria-alinhamento{
     background-color:  #2a9d8f;
 }
 
-.jbrowser-iframe{
-    width: 600px;
-    height: 500px;
+.jbrowse-iframe{
+    
+}
+
+.conteiner-jbrowse{
+    height: 480px;
 }
