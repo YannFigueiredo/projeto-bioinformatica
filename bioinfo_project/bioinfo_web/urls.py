@@ -10,7 +10,8 @@ urlpatterns = [
     path('blast/dados/', views.get_dados_amostra, name='dados'),
     path('blast/resultado', views.resultado_blast, name='resultado_blast'),
     path('download/', views.download, name='download'),
-    path('sobre/', views.sobre, name="sobre")
+    path('sobre/', views.sobre, name="sobre"),
+    path('jbrowse/', views.jbrowse, name="jbrowse")
 ]
 
 if settings.DEBUG:

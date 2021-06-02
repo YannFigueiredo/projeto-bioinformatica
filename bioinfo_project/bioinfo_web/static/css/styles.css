@@ -366,3 +366,8 @@ hr.divisoria-alinhamento{
 .button-download:hover{
     background-color:  #2a9d8f;
 }
+
+.jbrowser-iframe{
+    width: 600px;
+    height: 500px;
+}

@@ -17,6 +17,8 @@ def download(request):
 def sobre(request):
     return render(request, 'bioinfo_web/sobre.html')
 
+def jbrowse(request):
+    return render(request, 'bioinfo_web/jbrowse.html')
 
 def blast(request):
     return render(request, 'bioinfo_web/blast.html')
