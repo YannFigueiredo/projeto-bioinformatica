@@ -1,0 +1,368 @@
+/*Estilo body*/
+body{
+    background-image: url("/static/imagens/fundo2.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-size: cover;
+    position: relative;
+    margin: 0 0 60px;
+    min-height: 100%;
+}
+
+html{
+   height: 100%;
+}
+
+/*Estilo rodapé*/
+footer#footer.footer.bg-dark{
+    position: absolute;
+    /*width: 600px;*/
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0px;
+    /*margin-top: 8px;*/
+}
+
+h1.h1_footer{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*Estilo barra superior e abas*/
+div.div_barra_superior{
+    background-color: #264653;
+}
+
+button.btn.home{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.home:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.blast{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.blast:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.jbrowse{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.jbrowse:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.arvore{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.arvore:hover{
+    background-color: #2a9d8f;
+}
+
+button.btn.download{
+    background-color: #264653;
+    color: white;
+}
+
+button.btn.download:hover{
+    background-color: #2a9d8f;
+}
+
+form.form-inline{
+    margin-left: auto;
+}
+
+.navbar-abas{
+    padding-left: 0;
+}
+
+.nav-link{
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link:enabled{
+    color: white;
+}
+
+.nav-item{
+    text-decoration: none;
+    display: inline;
+}
+
+/*Estilo página home*/
+.section-home{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    padding-left: 8%;
+}
+
+.article-funcoes{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin-right: 4%;
+}
+
+.article-funcoes img{
+    width: 100%;
+    border: 4px solid #264653;
+    border-radius: 8px;
+    transition: all .4s linear;
+}
+
+.article-funcoes img:hover{
+    border: 4px solid #2a9d8f;
+}
+
+.article-funcoes h1{
+    font-size: 18px;
+    text-decoration: bold;
+    text-align: center;
+    color: #264653;
+}
+
+/*Estilo página sobre*/
+#card-texto-home{
+    margin-bottom: 60px;
+}
+
+.aviso-txt-temp{
+    border-style: dashed;
+    border-color: red;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+p.card-text{
+    text-align: justify;
+    text-indent: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+figure.figura-virus{
+   width: 240px;
+   float: right;
+   margin-left: 15px;
+}
+
+h1.h1_home{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+a.a_link_exemplo{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+div#div-principal-home{
+    width: 100%;
+    margin: 0px;
+}
+
+/*Estilo página do blast*/
+form#formulario_blast.form-contact.contact_form{
+    margin: auto;
+    width: 60%;
+}
+
+#div_titulo_container_blast{
+    margin-bottom: 0;
+}
+
+div.conteudo-form{
+    width: 600px;
+    margin: auto;
+}
+
+#container_campos_blast{
+    padding-bottom: 80px;
+}
+
+div.row.pand{
+    align-self: center;
+    padding-top: 10px;
+}
+
+h1#h1_titulo_container_blast{
+    font-size: 20px;
+    text-align: center;
+    color: #264653;
+}
+
+h1.h1_tag_blast{
+    font-size: 13px;
+    margin-top: 8px;
+}
+h1.h1_tag_amostra{
+    font-size: 13px;
+}
+select#select_program.form-control.selectProgram{
+    width: 600px;
+    border-radius: 8px;
+}
+
+select#select_database.form-control.selectDatabase{
+    width: 600px;
+    border-radius: 8px;
+}
+
+#textArea{
+    resize: none;
+    height: 140px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: border 0.3s linear;
+}
+
+#textArea:hover, #textArea:focus{
+    border: 2px solid #2a9d8f;
+}
+
+input.input_arquivo{
+    margin-bottom: 15px;
+}
+
+input.input_other_options{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+input.input_submit:hover{
+    background-color: #2a9d8f;
+}
+
+div.campo-submit{
+    margin: auto;
+    margin-top: 15px;
+    width: 100px;
+}
+
+input.input_submit{
+    background-color: #264653;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100px;
+    margin: auto;
+    transition: all .5s linear;
+}
+
+div.form-group.row{
+    align-items: center;
+    margin-top: 15px;
+    width: 400px;
+    margin: auto;
+    padding: 8px;
+}
+
+div#inputFile{
+    width: 300px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+/*styles resultado_blast*/
+div.resultado{
+     overflow-y: scroll;
+     width: 100%;
+     height: 840px;
+}
+
+h2.identificacao-alinhamento{
+    color: darkblue;
+    font-size: 20px;
+}
+
+h3.infos-alinhamento{
+    font-size: 18px;
+}
+
+hr.divisoria-alinhamento{
+    border: 2px solid;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+.table-blast-result{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.table-blast-result th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.table-blast-result th{
+    background-color: #264653;
+    color: white;
+}
+
+.table-blast-result td{
+    padding: 8px;
+}
+
+.table-blast-result tr:nth-child(odd) td{
+    background-color: rgb(170, 170, 170);
+}
+
+.table-blast-result tr:nth-child(even) td{
+    background-color: #ccc;
+}
+
+/*Style página de download*/
+.conteiner-download{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.label-download{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.link-download{
+    color: white;
+}
+
+.link-download:hover{
+    color: white;
+}
+
+.link-download:visited{
+    color: white;
+}
+
+.button-download{
+    padding: 6px 20px 6px 20px;
+    background-color: #264653;
+    border-radius: 8px;
+    transition: all 0.5s linear;
+}
+
+.button-download:hover{
+    background-color:  #2a9d8f;
+}
