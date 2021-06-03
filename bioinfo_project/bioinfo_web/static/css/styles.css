@@ -372,9 +372,11 @@ hr.divisoria-alinhamento{
 }
 
 .jbrowse-iframe{
+    width: 100%;
+    height: 100%;
     border: none;
 }
 
 .conteiner-jbrowse{
-    height: 480px;
+    height: 490px;
 }
