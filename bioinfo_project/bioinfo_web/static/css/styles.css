@@ -83,6 +83,10 @@ form.form-inline{
     margin-left: auto;
 }
 
+.navbar{
+    margin-bottom: 0;
+}
+
 .navbar-abas{
     padding-left: 0;
 }
@@ -368,7 +372,7 @@ hr.divisoria-alinhamento{
 }
 
 .jbrowse-iframe{
-    
+    border: none;
 }
 
 .conteiner-jbrowse{
