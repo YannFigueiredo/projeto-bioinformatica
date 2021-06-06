@@ -1,0 +1,516 @@
+{
+ "name": "ORIGEM",
+ "children": [
+	{
+   "name": "100",
+   "children": [
+    {
+     "name": "100",
+     "children": [
+		{
+		"name": "39",
+		"children": [
+			{
+			"name": "94",
+				"children": [
+				{
+				"name": "100",
+					"children": [
+					{
+					"name": "K",
+					"children": [
+						{
+						"name": "19",
+							"children": [
+							{
+							"name": "Q",
+								"children": [
+								{
+								"name": "25",
+									"children": [
+									{
+									"name": "X",
+									"children": [
+										{
+										"name": "36",
+										"children": [
+											{
+											"name": "AM",
+											"children": [
+												{
+												"name": "56",
+													"children": [
+														{"name": "MK583162", "value": 88},
+														{"name": "MK583161", "value": 75}
+													]
+												},
+												{"name": "MK583175", "value": 61}
+												]
+											},
+											{"name": "MK583182", "value": 45}
+											]
+										},
+										{
+											"name": "37",
+											"children": [
+												{
+												"name": "58",
+													"children": [
+														{"name": "MK583176", "value": 36},
+														{"name": "MK583156", "value": 76}
+													]
+												},
+												{"name": "MK583181", "value": 62}
+												]
+											}
+										]
+									},
+									{"name": "MK583160", "value": 31}
+									]
+								},
+								{"name": "MK583172", "value": 26}
+								]
+							},
+							{
+							"name": "R",
+							"children": [
+								{
+								"name": "AO",
+								"children": [
+									{
+									"name": "50",
+									"children": [
+										{"name": "MK583179", "value": 46},
+										{"name": "MK583152", "value": 47}
+										]
+									},
+									{
+									"name": "51",
+									"children": [
+										{"name": "MK583178", "value": 49},
+										{"name": "MK583164", "value": 50}
+										]
+									}
+									]
+								},
+								{"name": "MK583177", "value": 48}
+							]
+							}
+							]
+						},
+						{
+						"name": "20",
+						"children": [
+							{
+							"name": "28",
+							"children": [
+								{
+								"name": "W",
+								"children": [
+									{
+									"name": "38",
+									"children": [
+										{
+										"name": "AQ",
+										"children": [
+											{
+											"name": "60",
+											"children": [
+												{"name": "MK583155", "value": 23},
+												{"name": "MK583147", "value": 77}
+												]
+											},
+											{"name": "MK583151", "value": 63}
+											]
+										},
+										{
+										"name": "AR",
+										"children": [
+											{"name": "MK583157", "value": 51},
+											{"name": "MK583148", "value": 64}
+											]
+										}
+										]
+									},
+									{"name": "MK583153", "value": 37}
+									]
+								},
+								{"name": "MK583149", "value": 32}
+								]
+							},
+									{
+									"name": "29",
+									"children": [
+										{
+										"name": "AS",
+										"children": [
+											{
+											"name": "62",
+											"children": [
+												{"name": "MK583166", "value": 27},
+												{"name": "MK583163", "value": 78}
+												]
+											},
+											{"name": "MK583167", "value": 65}
+											]
+										},
+										{
+										"name": "AT",
+										"children": [
+											{"name": "MK583165", "value": 52},
+											{"name": "MK583158", "value": 66}
+											]
+										}
+										]
+									}
+						]
+						}
+						]
+					},
+					{
+					"name": "L",
+					"children": [
+						{
+						"name": "21",
+							"children": [
+							{
+							"name": "S",
+								"children": [
+								{
+								"name": "30",
+									"children": [
+									{
+									"name": "AA",
+										"children": [
+										{
+										"name": "40",
+										"children": [
+											{
+											"name": "AU",
+												"children": [
+													{
+													"name": "64",
+														"children": [
+															{"name": "MK583170", "value": 53},
+															{"name": "MK583150", "value": 79}
+														]
+													},
+													{"name": "MK583159", "value": 74}
+												]
+											},
+											{"name": "MK583174", "value": 54}
+											]
+										},
+										{"name": "MK583171", "value": 38}
+										]
+									},
+									{"name": "MK583180", "value": 33}
+									]
+								},
+								{"name": "MK583169", "value": 28}
+								]
+							},
+							{"name": "MK583173", "value": 24}
+							]
+						},
+						{"name": "MW034590", "value": 20}
+						]
+					}
+					]
+				},
+				{"name": "MK728873", "value": 13}
+				]
+			},
+			{
+			"name": "55",
+				"children": [
+				{"name": "MK583168", "value": 10},
+				{"name": "MH560359", "value": 11}
+				]
+			}
+		]
+		},
+	{"name": "MK583154", "value": 3}
+     ]
+    },
+
+
+
+
+    {
+     "name": "100",
+     "children": [
+      {
+		"name": "5",
+		"children": [
+			{
+			"name": "I",
+			"children": [
+			{
+				"name": "13",
+				"children": [
+					{
+					"name": "M",
+						"children": [
+						{
+						"name": "23",
+							"children": [
+							{
+							"name": "U",
+								"children": [
+								{
+								"name": "32",
+									"children": [
+									{
+									"name": "AC",
+										"children": [
+										{
+										"name": "42",
+										"children": [
+											{
+											"name": "AX",
+											"children": [
+												{
+												"name": "70",
+												"children": [
+													{"name": "MN211309", "value": 4},
+													{"name": "MN211303", "value": 80}
+													]
+												},
+												{"name": "MN211310", "value": 67}
+												]
+											},
+											{"name": "MN211304", "value": 55}
+											]
+										},
+										{"name": "MN211301", "value": 39}
+										]
+									},
+									{
+									"name": "AD",
+										"children": [
+											{
+											"name": "AW",
+											"children": [
+												{
+												"name": "72",
+												"children": [
+													{"name": "MN211302", "value": 33},
+													{"name": "MK457701", "value": 81}
+													]
+												},
+												{"name": "MN211311", "value": 68}
+												]
+											},
+											{"name": "MN211306", "value": 56}
+											]
+										}
+									]
+								},
+								{"name": "MN211307", "value": 29}
+								]
+							},
+							{
+							"name": "V",
+								"children": [
+									{
+									"name": "74",
+										"children": [
+											{"name": "JX898874", "value": 25},
+											{"name": "JX898873", "value": 82}
+										]
+									},
+									{"name": "JX898875", "value": 69}
+								]
+							}
+							]
+						},
+						{
+						"name": "N",
+							"children": [
+							{"name": "JX898870", "value": 21},
+							{"name": "JX898868", "value": 22}
+							]
+					}
+						]
+					},
+					{
+					"name": "24",
+						"children": [
+						{"name": "MN106242", "value": 17},
+						{"name": "KU978765", "value": 18}
+						]
+					}
+					]
+			},
+			{
+			"name": "14",
+			"children": [
+				{
+				"name": "44",
+					"children": [
+						{
+						"name": "BA",
+							"children": [
+								{
+								"name": "76",
+									"children": [
+										{"name": "JX898880", "value": 14},
+										{"name": "JX898877", "value": 83}
+									]
+								},
+								{"name": "JX898879", "value": 70}
+							]
+						},
+						{
+						"name": "BB",
+							"children": [
+								{"name": "JX898881", "value": 57},
+								{"name": "JX898878", "value": 84}
+							]
+						}
+					]
+				},
+				{"name": "JX898876", "value": 40}
+				]
+			}
+		]
+	},
+			{
+			"name": "J",
+			"children": [
+			{
+				"name": "15",
+				"children": [
+					{
+					"name": "34",
+					"children": [
+						{
+						"name": "AE",
+						"children": [
+							{
+							"name": "46",
+								"children": [
+									{
+									"name": "BC",
+										"children": [
+											{
+											"name": "78",
+												"children": [
+													{"name": "MT505352", "value": 13},
+													{"name": "MT505351", "value": 85}
+												]
+											},
+											{"name": "DQ118157", "value": 71}
+										]
+									},
+									{"name": "NC_002031", "value": 58}
+								]
+							},
+							{
+							"name": "47",
+							"children": [
+								{"name": "MG051217", "value": 41},
+								{"name": "MF289572", "value": 43}
+								]
+							}
+						]
+						},
+						{"name": "KU978764", "value": 34}
+						]
+					},
+					{"name": "MF405338", "value": 30}
+				]
+			},
+			{
+			"name": "16",
+				"children": [
+					{
+					"name": "BE",
+						"children": [
+							{
+							"name": "80",
+								"children": [
+									{"name": "JX898872", "value": 15},
+									{"name": "JX898871", "value": 86}
+								]
+							},
+							{"name": "MG051218", "value": 72}
+						]
+					},
+					{"name": "AF094612", "value": 59}
+				]
+			}
+			]
+			}
+		]
+		},
+		{
+		"name": "6",
+		"children": [
+			{"name": "JX898869", "value": 5},
+			{"name": "KU978763", "value": 6}
+		]
+		}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "100",
+   "children": [
+    {
+    "name": "C",
+    "children": [
+		{
+		"name": "7",
+		"children": [
+			{
+			"name": "AG",
+			"children": [
+				{
+				"name": "48",
+				"children": [
+					{
+					"name": "BG",
+						"children": [
+							{
+							"name": "82",
+								"children": [
+									{"name": "KY587416", "value": 7},
+									{"name": "KX010996", "value": 87}
+								]
+							},
+							{"name": "KX010995", "value": 73}
+						]
+					},
+					{"name": "KX268355", "value": 60}
+				]
+			},
+				{
+				"name": "49",
+				"children": [
+					{"name": "MG589641", "value": 42},
+					{"name": "KU949599", "value": 44}
+					]
+				}
+				]
+			},
+			{"name": "KX027336", "value": 35}
+			]
+		},
+		{"name": "KU921608", "value": 8}
+     ]
+    },
+
+
+	{
+     "name": "D",
+     "children": [
+      {"name": "KX010994", "value": 9}
+     ]
+    }
+   ]
+  }
+]
+}
