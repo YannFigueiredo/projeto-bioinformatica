@@ -383,10 +383,11 @@ hr.divisoria-alinhamento{
 
 
 /*Árvore Filogenética*/
-.arvvore-iframe{
-    width: 100%;
+.arvore-iframe{
+    width: 91%;
     height: 100%;
     border: none;
+    display: block;
     margin: auto;
 }
 
