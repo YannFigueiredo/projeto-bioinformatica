@@ -1,6 +1,6 @@
 // Get JSON data
 treeJSON = d3.json("arvore.json", function(error, treeData) {
-  // Calcular valor total de nós, tamanho máximo da label
+      // Calcular valor total de nós, tamanho máximo da label
       var totalNodes = 0;
       var maxLabelLength = 0;
       // Variaveis Drag/drop (função desativada)

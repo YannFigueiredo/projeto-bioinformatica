@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="{% static 'css/styles.css'%}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script type="text/javascript" src='{% static "js/scripts.js" %}'></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
   <title>{% block title %}{% endblock %}</title>
 </head>
 
@@ -36,7 +38,7 @@
           <a class="nav-link" href="/jbrowse">JBrowse</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Árvore Filogenética</a>
+          <a class="nav-link" href="/arvore">Árvore Filogenética</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/download">Download</a>

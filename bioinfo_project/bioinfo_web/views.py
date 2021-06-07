@@ -20,6 +20,9 @@ def sobre(request):
 def jbrowse(request):
     return render(request, 'bioinfo_web/jbrowse.html')
 
+def arvore(request):
+    return render(request, 'bioinfo_web/arvore.html')
+
 def blast(request):
     return render(request, 'bioinfo_web/blast.html')
 
