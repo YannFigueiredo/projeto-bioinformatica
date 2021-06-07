@@ -83,6 +83,10 @@ form.form-inline{
     margin-left: auto;
 }
 
+.navbar{
+    margin-bottom: 0;
+}
+
 .navbar-abas{
     padding-left: 0;
 }
@@ -365,4 +369,28 @@ hr.divisoria-alinhamento{
 
 .button-download:hover{
     background-color:  #2a9d8f;
+}
+
+.jbrowse-iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.conteiner-jbrowse{
+    height: 490px;
+}
+
+
+/*Árvore Filogenética*/
+.arvore-iframe{
+    width: 91%;
+    height: 100%;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+#tree-container{
+    height: 490px;
 }

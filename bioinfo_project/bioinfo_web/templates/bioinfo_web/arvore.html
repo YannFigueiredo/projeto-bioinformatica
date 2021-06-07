@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} Árvore Filogenética {% endblock %}
+
+{% block content %}
+
+<!--<div class = "card-header" id="div_titulo_container_blast">
+    <h1 id="h1_titulo_container_blast"><b>Árvore Filogenética</b></h1>
+</div>-->
+<div id="tree-container">
+    <iframe class="arvore-iframe" src="http://localhost:54215/">
+
+    </iframe>    
+</div>
+
+{% endblock %}
