@@ -384,13 +384,58 @@ hr.divisoria-alinhamento{
 
 /*Árvore Filogenética*/
 .arvore-iframe{
-    width: 91%;
+    width: 80%;
     height: 100%;
     border: none;
     display: block;
     margin: auto;
 }
 
-#tree-container{
-    height: 490px;
+.tree-container{
+    height: 100%;
+    width: 88%;
+    margin: auto;
+    border: 1px solid black;
+    overflow: auto;
 }
+
+.node {
+    cursor: pointer;
+  }
+
+  .overlay{
+    background-color:#EEE;
+    width: 1200px;
+    height: 600px;
+  }
+
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+
+  .node text {
+    font-size:15px;
+    font-family:sans-serif;
+  }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+
+  .ghostCircle.show{
+      display:block;
+  }
+
+  .ghostCircle, .activeDrag .ghostCircle{
+       display: none;
+  }
