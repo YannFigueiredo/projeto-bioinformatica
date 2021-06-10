@@ -83,7 +83,12 @@ form.form-inline{
     margin-left: auto;
 }
 
-.navbar{
+.navbar .navbar-expand-lg .navbar-dark .bg-dark{
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+#navbar-header{
     margin-bottom: 0;
 }
 
@@ -122,6 +127,7 @@ form.form-inline{
     display: inline-block;
     width: 20%;
     float: left;
+    margin-top: 1.25em; 
     margin-right: 4%;
 }
 
@@ -180,7 +186,7 @@ a.a_link_exemplo{
 
 div#div-principal-home{
     width: 100%;
-    margin: 0px;
+    margin: 1.25em 0 0 0;
 }
 
 /*Estilo página do blast*/
@@ -286,6 +292,10 @@ div#inputFile{
     align-items: center;
 }
 
+.card-header{
+    margin-top: 1.25em;
+}
+
 /*styles resultado_blast*/
 div.resultado{
      overflow-y: scroll;
@@ -378,7 +388,7 @@ hr.divisoria-alinhamento{
 }
 
 .conteiner-jbrowse{
-    height: 490px;
+    height: 510px;
 }
 
 
