@@ -4,9 +4,6 @@ body{
     background-repeat: repeat;
     background-size: 100%;
     background-size: cover;
-    /*position: relative;*/
-    margin: 0 0 60px;
-    min-height: 100%;
     overflow: auto;
 }
 
@@ -127,15 +124,15 @@ form.form-inline{
     height: 100%;
     margin: auto;
     overflow: auto;
-    padding-left: 8%;
 }
 
 .article-funcoes{
     display: inline-block;
-    width: 20%;
+    width: 25%;
     float: left;
-    margin-top: 1.25em; 
-    margin-right: 4%;
+    margin-top: 1.25em;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
 }
 
 .article-funcoes img{
@@ -158,7 +155,8 @@ form.form-inline{
 
 /*Estilo página sobre*/
 #card-texto-home{
-    margin-bottom: 60px;
+    margin-bottom: 1.25em;
+    overflow: auto;
 }
 
 .aviso-txt-temp{
@@ -170,15 +168,14 @@ form.form-inline{
 
 p.card-text{
     text-align: justify;
-    text-indent: 35px;
-    margin-left: 12px;
-    margin-right: 12px;
+    text-indent: 2.19em;
+    margin-left: 0 1em 0 1em;
 }
 
 figure.figura-virus{
    width: 240px;
    float: right;
-   margin-left: 15px;
+   margin-left: 1em;
 }
 
 h1.h1_home{
@@ -207,12 +204,12 @@ form#formulario_blast.form-contact.contact_form{
 }
 
 div.conteudo-form{
-    width: 600px;
+    width: 70%;
     margin: auto;
 }
 
 #container_campos_blast{
-    padding-bottom: 80px;
+    padding-bottom: 6%;
 }
 
 div.row.pand{
