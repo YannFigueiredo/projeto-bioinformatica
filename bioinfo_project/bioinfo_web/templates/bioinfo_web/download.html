@@ -6,23 +6,25 @@
 
 {% block content %}
 
-<div class="conteiner-download">
-    <p class="label-download">Arquivo fasta do vírus da febre amarela</p>
-    <a id="file-virus-fasta" class="link-download" href="{% static 'files/YellowFever.fasta' %}" download>
-        <button class="button-download">Download</button>
-    </a>
-</div>
-<div class="conteiner-download">
-    <p class="label-download">Arquivo fasta do vetor da febre amarela</p>
-    <a class="link-download" href="{% static 'files/Haemagogus_janthinomys.fasta' %}" download>
-        <button class="button-download">Download</button>
-    </a>
-</div>
-<div class="conteiner-download">
-    <p class="label-download">Arquivo gff do vetor da febre amarela&nbsp;&nbsp;&nbsp;&nbsp;</p>
-    <a class="link-download" href="{% static 'files/Vetor_Yellow Fever_NC_028025.1.gff3' %}" download>
-        <button class="button-download">Download</button>
-    </a>
-</div>
+<section class="section-download">
+    <div class="conteiner-download">
+        <p class="label-download">Arquivo fasta do vírus da febre amarela</p>
+        <a id="file-virus-fasta" class="link-download" href="{% static 'files/YellowFever.fasta' %}" download>
+            <button class="button-download">Download</button>
+        </a>
+    </div>
+    <div class="conteiner-download">
+        <p class="label-download">Arquivo fasta do vetor da febre amarela</p>
+        <a class="link-download" href="{% static 'files/Haemagogus_janthinomys.fasta' %}" download>
+            <button class="button-download">Download</button>
+        </a>
+    </div>
+    <div class="conteiner-download">
+        <p class="label-download">Arquivo gff do vetor da febre amarela&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <a class="link-download" href="{% static 'files/Vetor_Yellow Fever_NC_028025.1.gff3' %}" download>
+            <button class="button-download">Download</button>
+        </a>
+    </div>
+</section>
 
 {% endblock %}

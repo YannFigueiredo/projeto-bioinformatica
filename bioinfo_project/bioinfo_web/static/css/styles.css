@@ -4,23 +4,26 @@ body{
     background-repeat: repeat;
     background-size: 100%;
     background-size: cover;
-    position: relative;
-    margin: 0 0 60px;
-    min-height: 100%;
+    overflow: auto;
 }
 
-html{
+html, body{
    height: 100%;
 }
 
 /*Estilo rodapé*/
 footer#footer.footer.bg-dark{
-    position: absolute;
+    /*position: absolute;*/
     /*width: 600px;*/
     width: 100%;
     bottom: 0;
     margin-bottom: 0px;
     /*margin-top: 8px;*/
+    overflow: auto;
+}
+
+.footer .bg-dark{
+    overflow: auto;
 }
 
 h1.h1_footer{
@@ -83,7 +86,12 @@ form.form-inline{
     margin-left: auto;
 }
 
-.navbar{
+.navbar .navbar-expand-lg .navbar-dark .bg-dark{
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+#navbar-header{
     margin-bottom: 0;
 }
 
@@ -113,16 +121,18 @@ form.form-inline{
 /*Estilo página home*/
 .section-home{
     width: 100%;
+    height: 100%;
     margin: auto;
     overflow: auto;
-    padding-left: 8%;
 }
 
 .article-funcoes{
     display: inline-block;
-    width: 20%;
+    width: 25%;
     float: left;
-    margin-right: 4%;
+    margin-top: 1.25em;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
 }
 
 .article-funcoes img{
@@ -145,7 +155,8 @@ form.form-inline{
 
 /*Estilo página sobre*/
 #card-texto-home{
-    margin-bottom: 60px;
+    margin-bottom: 1.25em;
+    overflow: auto;
 }
 
 .aviso-txt-temp{
@@ -157,15 +168,14 @@ form.form-inline{
 
 p.card-text{
     text-align: justify;
-    text-indent: 35px;
-    margin-left: 12px;
-    margin-right: 12px;
+    text-indent: 2.19em;
+    margin-left: 0 1em 0 1em;
 }
 
 figure.figura-virus{
    width: 240px;
    float: right;
-   margin-left: 15px;
+   margin-left: 1em;
 }
 
 h1.h1_home{
@@ -180,7 +190,7 @@ a.a_link_exemplo{
 
 div#div-principal-home{
     width: 100%;
-    margin: 0px;
+    margin: 1.25em 0 0 0;
 }
 
 /*Estilo página do blast*/
@@ -194,12 +204,12 @@ form#formulario_blast.form-contact.contact_form{
 }
 
 div.conteudo-form{
-    width: 600px;
+    width: 70%;
     margin: auto;
 }
 
 #container_campos_blast{
-    padding-bottom: 80px;
+    padding-bottom: 6%;
 }
 
 div.row.pand{
@@ -286,6 +296,10 @@ div#inputFile{
     align-items: center;
 }
 
+.card-header{
+    margin-top: 1.25em;
+}
+
 /*styles resultado_blast*/
 div.resultado{
      overflow-y: scroll;
@@ -343,6 +357,11 @@ hr.divisoria-alinhamento{
     margin-top: 25px;
 }
 
+.section-download{
+    width: 100%;
+    height: 100%;
+}
+
 .label-download{
     display: inline-block;
     margin-right: 15px;
@@ -371,6 +390,10 @@ hr.divisoria-alinhamento{
     background-color:  #2a9d8f;
 }
 
+.row .justify-content-center{
+    height: 100%;
+}
+
 .jbrowse-iframe{
     width: 100%;
     height: 100%;
@@ -378,19 +401,64 @@ hr.divisoria-alinhamento{
 }
 
 .conteiner-jbrowse{
-    height: 490px;
+    /*height: 510px;*/
+    height: 100%;
 }
 
 
 /*Árvore Filogenética*/
 .arvore-iframe{
-    width: 91%;
+    width: 80%;
     height: 100%;
     border: none;
     display: block;
     margin: auto;
 }
 
-#tree-container{
-    height: 490px;
+.tree-container{
+    height: 100%;
+    width: 89.70%;
+    margin: auto;
+    overflow: auto;
 }
+
+.node {
+    cursor: pointer;
+  }
+
+  .overlay{
+    background-color:#EEE;
+    width: 1200px;
+    height: 600px;
+  }
+
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+
+  .node text {
+    font-size:15px;
+    font-family:sans-serif;
+  }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+
+  .ghostCircle.show{
+      display:block;
+  }
+
+  .ghostCircle, .activeDrag .ghostCircle{
+       display: none;
+  }
