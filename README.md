@@ -60,7 +60,9 @@ Para ativar o JBrowse, já estando no diretório do mesmo, basta digitar o coman
 > ### Execução via Docker
 
 Para acessar toda a aplicação via Docker, é preciso ter também o docker-compose instalado. Dentro da pasta do projeto, basta executar...
-> docker-compose up
+```
+docker-compose up
+```
 
 > ### Funcionalidades:
 - Blast
