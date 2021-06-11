@@ -1,10 +1,4 @@
-{% extends 'base.html' %}
-
-{% load static %}
-
-{% block title %} Download {% endblock %}
-
-{% block content %}
+{% extends 'base.html' %} {% load static %} {% block title %} Download {% endblock %} {% block content %}
 
 <section class="section-download">
     <div class="conteiner-download">
@@ -22,6 +16,30 @@
     <div class="conteiner-download">
         <p class="label-download">Arquivo gff do vetor da febre amarela&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <a class="link-download" href="{% static 'files/Vetor_Yellow Fever_NC_028025.1.gff3' %}" download>
+            <button class="button-download">Download</button>
+        </a>
+    </div>
+    <div class="conteiner-download">
+        <p class="label-download"> Arquivo imagem da Arvore_D3JS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <a class="link-download" href="{% static 'imagens/Arvore_D3JS.png' %}" download>
+            <button class="button-download">Download</button>
+        </a>
+    </div>
+    <div class="conteiner-download">
+        <p class="label-download">Arquivo da imagem do Dendograma &nbsp; &nbsp;&nbsp;</p>
+        <a class="link-download" href="{% static 'imagens/Dendograma_Radia_D3JS.png' %}" download>
+            <button class="button-download">Download</button>
+        </a>
+    </div>
+    <div class="conteiner-download">
+        <p class="label-download">Arquivo da imagem Arvore Enraizada &nbsp;&nbsp;&nbsp;</p>
+        <a class="link-download" href="{% static 'imagens/Enraizada.png' %}" download>
+            <button class="button-download">Download</button>
+        </a>
+    </div>
+    <div class="conteiner-download">
+        <p class="label-download">Zip contendo as arvores em png e svg &nbsp;&nbsp; </p>
+        <a class="link-download" href="{% static 'files/Zip_arvores_d3js.zip' %}" download>
             <button class="button-download">Download</button>
         </a>
     </div>
