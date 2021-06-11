@@ -57,6 +57,13 @@ Para ativar o JBrowse, já estando no diretório do mesmo, basta digitar o coman
 - <b>Acessando JBrowse</b>
 ![acessando-jbrowse](/bioinfo_project/bioinfo_web/static/imagens/acessando-ferramenta-jbrowse.gif)
 
+> ### Execução via Docker
+
+Para acessar toda a aplicação via Docker, é preciso ter também o docker-compose instalado. Dentro da pasta do projeto, basta executar...
+```
+docker-compose up
+```
+
 > ### Funcionalidades:
 - Blast
 - JBrowse

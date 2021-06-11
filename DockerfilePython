@@ -1,0 +1,5 @@
+FROM python:3
+ENV PYTHONUNBUFFERED=1
+ADD bioinfo_project bioinfo_project
+WORKDIR /bioinfo_project
+RUN pip3 install biopython==1.77 django
