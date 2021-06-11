@@ -1,0 +1,5 @@
+FROM node:12
+
+# Create app directory
+ADD jbrowse2 jbrowse2
+CMD cd jbrowse2 && npx serve

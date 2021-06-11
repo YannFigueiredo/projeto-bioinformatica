@@ -1,0 +1,16 @@
+version: "3"
+services:
+    backend_bio_info_jbrowse:
+      build:
+        context: .
+        dockerfile: DockerfileNode
+      ports:
+        - "5000:5000"
+        
+    backend_bio_info_python:
+      build:
+        context: .
+        dockerfile: DockerfilePython
+      command: python manage.py runserver 0.0.0.0:8000
+      ports:
+        - "8000:8000"
